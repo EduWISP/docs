@@ -1,0 +1,55 @@
+title: EduWISP
+description: Piattaforma open source per la gestione dei dispositivi Android scolastici
+lang: it
+url: "https://eduwisp.github.io"
+baseurl: "/docs"
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Torna su"
+
+aux_links:
+  "English": "/docs/en/"
+  "GitHub": "https://github.com/EduWISP"
+aux_links_new_tab: false
+
+gh_edit_link: true
+gh_edit_link_text: "Modifica questa pagina su GitHub"
+gh_edit_repository: "https://github.com/EduWISP/docs"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "edit"
+
+footer_content: "Documentazione in fase di progettazione. La versione italiana è quella di riferimento."
+
+# Versione inglese: collezione separata servita sotto /en/
+collections:
+  en:
+    output: true
+    permalink: /en/:path/
+
+just_the_docs:
+  collections:
+    en:
+      name: English
+      nav_fold: false
+
+defaults:
+  - scope:
+      path: ""
+      type: en
+    values:
+      lang: en
+      layout: default

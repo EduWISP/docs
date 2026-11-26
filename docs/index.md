@@ -1,28 +1,52 @@
-# EduWISP Documentation
+---
+title: Home
+nav_order: 1
+permalink: /
+---
 
-**Open education device management**
+# EduWISP
+{: .fs-9 }
 
-EduWISP è una proposta open source per la gestione dei dispositivi Android di proprietà delle scuole, con MDM, gestione scolastica, Family Control e strumenti di prevenzione del cyberbullismo.
+Piattaforma open source per la gestione dei dispositivi Android di proprietà delle scuole.
+{: .fs-6 .fw-300 }
 
-## Stato del progetto
+[Leggi la visione](progetto/visione.md){: .btn .btn-primary .mr-2 }
+[Partecipa alla discussione](https://github.com/EduWISP/docs/discussions){: .btn .mr-2 }
+[English](/docs/en/){: .btn }
 
-<blockquote>
-Questa documentazione descrive una progettazione in corso. Non è disponibile un prodotto funzionante e non vengono fornite istruzioni di installazione.
-</blockquote>
+---
 
-## Aree del progetto
+{: .warning }
+> **Stato: progettazione.** Questa documentazione descrive una progettazione in corso. Non esiste ancora un prodotto funzionante e non vengono fornite istruzioni di installazione.
 
-- **MDM:** gestione centralizzata di dispositivi, applicazioni e configurazioni.
-- **School Management:** organizzazione di istituti, plessi, classi, docenti e studenti.
-- **Family Control:** collaborazione regolamentata tra scuola e famiglia.
-- **Policy Engine:** composizione e risoluzione trasparente delle regole.
-- **Cyberbullying & Digital Wellbeing:** segnalazione, prevenzione e presa in carico dei casi.
-- **Security & Privacy:** protezione dei dati e accessi limitati.
+## Cos'è EduWISP
+
+EduWISP è una proposta di piattaforma open source che unisce **Mobile Device Management (MDM)**, **gestione scolastica**, **Family Control** e strumenti di **prevenzione del cyberbullismo**, ispirandosi alla modularità e alla filosofia di [OpenWISP](https://openwisp.org/).
+
+## Come è organizzata la documentazione
+
+| Sezione | Contenuto |
+|---|---|
+| [Progetto](progetto/index.md) | Visione, perimetro, roadmap, governance, glossario |
+| [Requisiti](requisiti/index.md) | Requisiti funzionali e non funzionali, con stato di approvazione |
+| [Architettura](architettura/index.md) | Domini logici, Policy Engine, deployment |
+| [Moduli](moduli/index.md) | MDM, Android, gestione scolastica, Family Control, cyberbullismo |
+| [Sicurezza e privacy](sicurezza-privacy/index.md) | Principi di sicurezza, threat model, privacy e GDPR |
+| [Decisioni (ADR)](decisioni/index.md) | Registro delle decisioni progettuali |
+
+## Principi in breve
+
+- **Open source**, modulare, con API documentate.
+- **Cloud-first ma self-hostable**: nessuna dipendenza obbligatoria da un cloud proprietario.
+- **Multi-tenancy**: dati separati tra istituti.
+- **Privacy by design**: minimizzazione dei dati, nessuna sorveglianza degli studenti.
+- **Supervisione umana** per segnalazioni e interventi.
+- **Trasparenza** delle regole e tracciabilità delle operazioni amministrative.
 
 ## Modello scuola-famiglia
 
-La scuola mantiene il governo istituzionale del dispositivo. La famiglia può applicare regole aggiuntive nel contesto domestico, senza poter disattivare le policy di sicurezza o impedire le attività didattiche obbligatorie.
+La scuola mantiene il governo istituzionale del dispositivo. La famiglia può applicare regole aggiuntive nel contesto domestico, senza poter disattivare le policy di sicurezza o impedire le attività didattiche obbligatorie. Vedi [ADR-0002](decisioni/0002-modello-scuola-famiglia.md).
 
-## Hosting
+## Lingue
 
-Il progetto adotta un'impostazione cloud-first senza imporre un cloud proprietario. Il self-hosting è un requisito progettuale. Debian GNU/Linux 13 (Trixie) è il sistema operativo di riferimento per il server.
+La documentazione è in **italiano** (versione di riferimento) e in **inglese**. In caso di differenze prevale la versione italiana.
