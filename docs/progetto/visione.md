@@ -29,6 +29,10 @@ Costruire una piattaforma aperta che aiuti gli istituti a gestire i dispositivi 
 - Server Debian GNU/Linux 13 Trixie.
 - Multi-tenancy per più istituti.
 
+## Evoluzione prevista
+
+L'architettura è indipendente dalla piattaforma ([ADR-0011](../decisioni/0011-multipiattaforma.md)): in futuro potranno essere integrati dispositivi diversi da Android tramite nuovi agenti.
+
 ## Fuori perimetro iniziale
 
 

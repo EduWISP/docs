@@ -70,7 +70,9 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RNF-010 | Procedure di backup, ripristino e gestione degli incidenti da specificare. | proposto |
 | RNF-011 | Server di riferimento Debian GNU/Linux 13 (Trixie). Vedi [ADR-0004](../decisioni/0004-debian-13-server.md). | approvato |
 | RNF-012 | Tutti i componenti necessari sono open source e gratuiti; nessun servizio proprietario nel core. Vedi [ADR-0009](../decisioni/0009-solo-software-libero.md). | approvato |
-| RNF-013 | Protocollo server-agente aperto, documentato e versionato. | proposto |
+| RNF-013 | Protocollo server-agenti aperto, documentato e versionato. | proposto |
+| RNF-014 | Core indipendente dalla piattaforma: nuove piattaforme si aggiungono con un agente e un profilo, senza modificare i moduli del core. Vedi [ADR-0011](../decisioni/0011-multipiattaforma.md). | approvato |
+| RNF-015 | Ogni agente dichiara le proprie capacità; le regole non applicabili vengono mostrate, non ignorate. | approvato |
 
 ## Requisiti di conformità
 

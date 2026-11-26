@@ -53,7 +53,9 @@ The following is a design baseline to be discussed and validated. It does not de
 | RNF-010 | Backup, restore and incident procedures to be specified. | proposed |
 | RNF-011 | Reference server platform: Debian GNU/Linux 13 (Trixie). | approved |
 | RNF-012 | All required components are open source and free; no proprietary service in the core (ADR-0009). | approved |
-| RNF-013 | Open, documented, versioned server-agent protocol. | proposed |
+| RNF-013 | Open, documented, versioned server-agents protocol. | proposed |
+| RNF-014 | Platform-independent core: new platforms are added with an agent and a profile, without changing core modules (ADR-0011). | approved |
+| RNF-015 | Each agent declares its capabilities; non-applicable rules are shown, not ignored. | approved |
 
 ## Compliance requirements
 

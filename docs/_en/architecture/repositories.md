@@ -25,7 +25,8 @@ Every module has its own repository, so that someone can take ownership of it in
 | `eduwisp-family` | Family Control | — |
 | `eduwisp-wellbeing` | Cyberbullying case management and digital wellbeing | — |
 | `eduwisp-protocol` | Open, versioned server-agent protocol spec, schemas, conformance tests | `netjsonconfig` / NetJSON |
-| `eduwisp-android-dpc` | Open-source EduWISP DPC (*device owner*) | `openwisp-config` |
+| `eduwisp-android-dpc` | Open-source EduWISP DPC (*device owner*), first agent | `openwisp-config` |
+| `eduwisp-<platform>-agent` | Agents for other platforms, in the future (ADR-0011) | `openwrt-openwisp-monitoring` |
 | `ansible-eduwisp` | Install and upgrade on Debian 13 | `ansible-openwisp2` |
 | `docker-eduwisp` | Container images and composition | `docker-openwisp` |
 | `.github` | Profile, community files, templates, reusable workflows | `.github` |
@@ -36,7 +37,7 @@ Every module has its own repository, so that someone can take ownership of it in
 - Separate repositories do **not** mean microservices: server modules combine into one installable application, as in OpenWISP.
 - Dependencies point **one way**, towards the base modules (`utils`, `users`); no cycles.
 - Modules interact **only through documented interfaces** (APIs, events, extension points).
-- Server and DPC both depend on `eduwisp-protocol`, not on each other.
+- Server and agents both depend on the multi-platform `eduwisp-protocol`, not on each other.
 - `eduwisp-wellbeing` handles the most sensitive data: separate domain, restricted access.
 
 ## Minimum structure of each repository

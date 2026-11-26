@@ -9,7 +9,7 @@ nav_order: 1
 ## Principles
 
 - Separation of functional domains.
-- Core independent of the MDM provider.
+- Core independent of the MDM provider and of the device **platform**: Android is the first, not the only one (ADR-0011).
 - Only open-source, free components; no proprietary cloud service in the core (ADR-0009).
 - Documented, versioned APIs.
 - Multi-tenancy and data isolation.
@@ -50,9 +50,12 @@ School Portal     Family Portal     Student Reporting
                         |
                  Provider Adapter
                         |
-           Open server ↔ agent protocol
+          Open server ↔ agents protocol
                         |
-      EduWISP DPC (device owner) + app catalogue
+       +----------------+------------------+
+       |                                   |
+ EduWISP Android DPC            Agents for other platforms
+ (first agent)                        (future)
 ```
 
 ## Repositories

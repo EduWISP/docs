@@ -29,6 +29,10 @@ Build an open platform that helps schools manage educational devices with centra
 - Debian GNU/Linux 13 Trixie servers.
 - Multi-tenancy for multiple schools.
 
+## Planned evolution
+
+The architecture is platform-independent (ADR-0011): devices other than Android can be integrated later through new agents.
+
 ## Out of initial scope
 
 - BYOD as a primary scenario.

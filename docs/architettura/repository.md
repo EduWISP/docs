@@ -36,8 +36,9 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 
 | Repository | Contenuto | Equivalente OpenWISP |
 |---|---|---|
-| `eduwisp-protocol` | Specifica aperta e versionata del protocollo server-agente, schemi e test di conformità | `netjsonconfig` / NetJSON |
-| `eduwisp-android-dpc` | DPC EduWISP open source (*device owner*) | `openwisp-config` (agente OpenWrt) |
+| `eduwisp-protocol` | Specifica aperta e versionata del protocollo server-agenti, multipiattaforma: messaggi comuni, profili di piattaforma, capacità degli agenti, test di conformità | `netjsonconfig` / NetJSON |
+| `eduwisp-android-dpc` | DPC EduWISP open source (*device owner*), primo agente | `openwisp-config` (agente OpenWrt) |
+| `eduwisp-<piattaforma>-agent` | Agenti per altre piattaforme, in futuro ([ADR-0011](../decisioni/0011-multipiattaforma.md)) | `openwrt-openwisp-monitoring` |
 
 ### Installazione
 
@@ -73,7 +74,7 @@ Regole:
 
 - Le dipendenze vanno **in una sola direzione**, verso i moduli di base. Niente cicli.
 - Un modulo usa un altro modulo **solo tramite interfacce documentate** (API, eventi, punti di estensione), mai accedendo ai suoi dati interni.
-- Il server e il DPC dipendono entrambi da `eduwisp-protocol`, e nessuno dei due dall'altro: così si può sostituire o reimplementare uno dei due lati.
+- Il server e gli agenti dipendono entrambi da `eduwisp-protocol`, e nessuno dei due dall'altro: così si può sostituire un lato o aggiungere una piattaforma senza toccare il core.
 - `eduwisp-wellbeing` tratta i dati più delicati: dominio separato, accesso ristretto, nessuna dipendenza in ingresso dagli altri moduli funzionali.
 
 ## Struttura minima di ogni repository

@@ -20,7 +20,7 @@ EduWISP vuole crescere come progetto comunitario. Chi contribuisce deve poter **
 3. **Repository separati non significa microservizi:** come in OpenWISP, i moduli server si combinano in un'unica applicazione installabile (vedi [Architettura](../architettura/architettura.md)).
 4. Agente Android, specifica del protocollo, strumenti di installazione e documentazione hanno ciascuno un repository dedicato.
 5. Ogni repository rispetta la struttura minima comune descritta in [Organizzazione dei repository](../architettura/repository.md).
-6. I repository si creano **quando il modulo entra in sviluppo**, non prima: fino ad allora la progettazione resta in `EduWISP/docs`.
+6. I repository dei moduli sono stati creati il 2026-11-26, in stato di progettazione, per permettere a chi vuole di prendere in carico un modulo fin da subito. La progettazione di dettaglio resta in `EduWISP/docs` finché il modulo non entra in sviluppo.
 
 ## Alternative considerate
 
