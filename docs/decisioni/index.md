@@ -22,6 +22,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0010](0010-un-repository-per-modulo.md) | Un repository per ogni modulo | Accettata |
 | [0011](0011-multipiattaforma.md) | Architettura indipendente dalla piattaforma dei dispositivi | Accettata |
 | [0012](0012-responsabile-del-progetto.md) | Responsabile del progetto | Accettata |
+| [0013](0013-stack-tecnologico.md) | Stack tecnologico: Django 5.2 LTS, PostgreSQL, Kotlin senza servizi Google | Proposta |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

@@ -19,5 +19,6 @@ ADRs are written in Italian (ADR-0007). This is an English summary; follow the l
 | [0008](/docs/decisioni/0008-conformita-normativa/) | Legal compliance (minors, GDPR, Italian law) is a blocking constraint | Accepted |
 | [0009](/docs/decisioni/0009-solo-software-libero/) | Only open-source, free-of-charge components; build alternatives to proprietary services | Accepted |
 | [0010](/docs/decisioni/0010-un-repository-per-modulo/) | One repository per module, so each can be owned independently | Accepted |
+| [0013](/docs/decisioni/0013-stack-tecnologico/) | Tech stack: Python 3.13 + Django 5.2 LTS, DRF, PostgreSQL 17, Celery + Valkey, HTMX + Bootstrap Italia; Kotlin agent with no Google Play Services, UnifiedPush | Proposed |
 | [0012](/docs/decisioni/0012-responsabile-del-progetto/) | Project lead: Michele Salerno (final say on decisions, appoints module owners, owns the EduWISP name and logo) | Accepted |
 | [0011](/docs/decisioni/0011-multipiattaforma/) | Platform-independent core: Android is the first agent, other platforms can be added via new agents and protocol profiles | Accepted |
