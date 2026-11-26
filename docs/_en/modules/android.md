@@ -27,7 +27,7 @@ Under ADR-0009 every component must be open source and free of charge. Managemen
 
 ## Open risk: devices with Google services
 
-On GMS devices, Play Protect only allows DPCs approved by Android Enterprise during enrollment. Options (verification of the EduWISP DPC, AOSP devices, mixed approach) are in ADR-0003.
+On GMS devices, Play Protect only allows DPCs approved by Android Enterprise during enrollment. The main path is **getting the EduWISP DPC verified** by Android Enterprise; devices must stay as sold, with no unlocking or modified OS (ADR-0003, RNF-016).
 
 ## Provider abstraction
 

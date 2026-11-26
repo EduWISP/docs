@@ -11,7 +11,7 @@ ADRs are written in Italian (ADR-0007). This is an English summary; follow the l
 |---|---|---|
 | [0001](/docs/decisioni/0001-uso-degli-adr/) | Record design decisions as ADRs | Accepted |
 | [0002](/docs/decisioni/0002-modello-scuola-famiglia/) | Two coordinated scopes: school governs security and education, family adds rules for home use | Accepted |
-| [0003](/docs/decisioni/0003-target-android/) | Android target and approach: open-source EduWISP DPC, own app catalogue; open risk: DPC approval on GMS devices | Proposed |
+| [0003](/docs/decisioni/0003-target-android/) | Android target and approach: open-source EduWISP DPC, own app catalogue; devices stay as sold (no unlocking); open risk: DPC approval on GMS devices, main path is Android Enterprise verification | Proposed |
 | [0004](/docs/decisioni/0004-debian-13-server/) | Debian GNU/Linux 13 as reference server platform | Accepted |
 | [0005](/docs/decisioni/0005-cloud-first-self-hostable/) | Cloud-first but always self-hostable | Accepted |
 | [0006](/docs/decisioni/0006-licenza/) | Licences: AGPL-3.0-or-later with attribution and trademark terms (code), CC BY-SA 4.0 (docs), name and logo excluded; DCO for contributions | Accepted |

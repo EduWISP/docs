@@ -65,7 +65,7 @@ With ADR-0009 the AMAPI column is for comparison only. The project must build th
 | Managed Google Play | **EduWISP app catalogue** of signed APKs (F-Droid-like) |
 | Zero-touch portal | **QR provisioning** from the EduWISP server; zero-touch to be verified |
 
-Open issues: ⚠️ DPC approval on GMS devices (see ADR-0003); Play-only apps; ❔ rows; real-device tests.
+Open issues: ⚠️ DPC approval on GMS devices — since devices must stay as sold (RNF-016), the main path is Android Enterprise verification (ADR-0003); Play-only apps; ❔ rows; real-device tests.
 
 ## Sources
 

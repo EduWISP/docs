@@ -27,7 +27,7 @@ Per l'[ADR-0009](../decisioni/0009-solo-software-libero.md) ogni componente deve
 
 ## Rischio aperto: dispositivi con servizi Google
 
-Sui dispositivi con GMS, Play Protect consente durante la registrazione solo i DPC approvati da Android Enterprise. Le opzioni (verifica del DPC EduWISP, dispositivi AOSP, approccio misto) sono descritte in ADR-0003.
+Sui dispositivi con GMS, Play Protect consente durante la registrazione solo i DPC approvati da Android Enterprise. La strada principale è **far verificare il DPC EduWISP** da Android Enterprise; i dispositivi devono restare così come venduti, senza sblocchi né sistemi modificati (ADR-0003, RNF-016).
 
 ## Provider abstraction
 

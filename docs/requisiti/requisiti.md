@@ -73,6 +73,7 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RNF-013 | Protocollo server-agenti aperto, documentato e versionato. | proposto |
 | RNF-014 | Core indipendente dalla piattaforma: nuove piattaforme si aggiungono con un agente e un profilo, senza modificare i moduli del core. Vedi [ADR-0011](../decisioni/0011-multipiattaforma.md). | approvato |
 | RNF-015 | Ogni agente dichiara le proprie capacità; le regole non applicabili vengono mostrate, non ignorate. | approvato |
+| RNF-016 | Funzionamento sui dispositivi così come venduti: nessuno sblocco del bootloader né sistema modificato; registrazione solo con metodi standard. Vedi [ADR-0003](../decisioni/0003-target-android.md). | approvato |
 
 ## Requisiti di conformità
 

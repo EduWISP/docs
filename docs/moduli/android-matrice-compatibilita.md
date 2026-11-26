@@ -70,7 +70,7 @@ La strada primaria è il **DPC EduWISP** ([ADR-0003](../decisioni/0003-target-an
 
 Punti da risolvere:
 
-1. ⚠️ **Approvazione del DPC sui dispositivi con servizi Google.** Play Protect blocca i DPC non verificati. Le opzioni sono in ADR-0003: chiedere la verifica, usare dispositivi AOSP, oppure un approccio misto.
+1. ⚠️ **Approvazione del DPC sui dispositivi con servizi Google.** Play Protect blocca i DPC non verificati. Poiché i dispositivi devono restare così come venduti (RNF-016), la strada principale è chiedere la verifica ad Android Enterprise (ADR-0003).
 2. **App disponibili solo su Google Play.** Va definito se e come offrirle senza managed Google Play e senza account Google personali dei minori.
 3. **Righe ❔ della colonna DPC** (Wi-Fi, zero-touch, riavvio, pulizia dati app): da verificare.
 4. **Test su dispositivi reali** di 2-3 modelli diffusi nelle scuole.

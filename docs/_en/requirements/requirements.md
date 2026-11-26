@@ -56,6 +56,7 @@ The following is a design baseline to be discussed and validated. It does not de
 | RNF-013 | Open, documented, versioned server-agents protocol. | proposed |
 | RNF-014 | Platform-independent core: new platforms are added with an agent and a profile, without changing core modules (ADR-0011). | approved |
 | RNF-015 | Each agent declares its capabilities; non-applicable rules are shown, not ignored. | approved |
+| RNF-016 | Works on devices as sold: no bootloader unlocking or modified OS; enrollment only through standard methods (ADR-0003). | approved |
 
 ## Compliance requirements
 
