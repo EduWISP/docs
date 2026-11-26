@@ -38,6 +38,8 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 |---|---|---|
 | `eduwisp-protocol` | Specifica aperta e versionata del protocollo server-agenti, multipiattaforma: messaggi comuni, profili di piattaforma, capacità degli agenti, test di conformità | `netjsonconfig` / NetJSON |
 | `eduwisp-android-dpc` | DPC EduWISP open source (*device owner*), primo agente | `openwisp-config` (agente OpenWrt) |
+| `eduwisp-desktop-agent` | Agente per PC Windows, macOS e Linux, per il Family Control (da creare, [ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)) | — |
+| `eduwisp-family-android` | App Family Control per dispositivi Android personali, senza *device owner* (da creare) | — |
 | `eduwisp-<piattaforma>-agent` | Agenti per altre piattaforme, in futuro ([ADR-0011](../decisioni/0011-multipiattaforma.md)) | `openwrt-openwisp-monitoring` |
 
 ### Installazione

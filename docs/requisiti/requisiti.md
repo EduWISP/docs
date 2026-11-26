@@ -48,6 +48,11 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RF-021 | Permettere regole familiari aggiuntive negli ambiti autorizzati. | Family Control | proposto |
 | RF-022 | Rendere visibili le regole attive e la loro provenienza. | Policy Engine | proposto |
 | RF-023 | Impedire che una regola familiare annulli una baseline di sicurezza. | Policy Engine | proposto |
+| RF-024 | Attivare il Family Control solo su scelta esplicita del genitore/tutore, con disattivazione in ogni momento. | Family Control | approvato |
+| RF-025 | Supportare dispositivi della famiglia: Android, Windows, macOS, Linux (iOS da valutare). | Family Control | proposto |
+| RF-026 | Limiti di tempo, fasce orarie, filtro web per categorie, app consentite e bloccate. | Family Control | proposto |
+| RF-027 | Riepiloghi d'uso aggregati visibili sia al genitore sia al figlio; richiesta di tempo extra. | Family Control | proposto |
+| RF-028 | Separare i dati del Family Control da quelli della scuola: la scuola non vede i dispositivi familiari. | Family Control | approvato |
 
 ### Cyberbullismo e benessere
 

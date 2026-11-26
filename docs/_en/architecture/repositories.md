@@ -26,6 +26,8 @@ Every module has its own repository, so that someone can take ownership of it in
 | `eduwisp-wellbeing` | Cyberbullying case management and digital wellbeing | — |
 | `eduwisp-protocol` | Open, versioned server-agent protocol spec, schemas, conformance tests | `netjsonconfig` / NetJSON |
 | `eduwisp-android-dpc` | Open-source EduWISP DPC (*device owner*), first agent | `openwisp-config` |
+| `eduwisp-desktop-agent` | Windows/macOS/Linux agent for Family Control (to be created, ADR-0014) | — |
+| `eduwisp-family-android` | Family Control app for personal Android devices, no device owner (to be created) | — |
 | `eduwisp-<platform>-agent` | Agents for other platforms, in the future (ADR-0011) | `openwrt-openwisp-monitoring` |
 | `ansible-eduwisp` | Install and upgrade on Debian 13 | `ansible-openwisp2` |
 | `docker-eduwisp` | Container images and composition | `docker-openwisp` |

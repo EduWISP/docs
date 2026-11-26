@@ -35,7 +35,7 @@ The architecture is platform-independent (ADR-0011): devices other than Android 
 
 ## Out of initial scope
 
-- BYOD as a primary scenario.
+- BYOD managed by the school. Family devices are covered only by the optional, parent-chosen Family Control (ADR-0014).
 - General surveillance of private life.
 - Replacing emergency services, social services or official school procedures.
 - Automated disciplinary decisions.

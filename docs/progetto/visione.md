@@ -36,7 +36,7 @@ L'architettura è indipendente dalla piattaforma ([ADR-0011](../decisioni/0011-m
 ## Fuori perimetro iniziale
 
 
-- Gestione BYOD come scenario primario.
+- Gestione BYOD da parte della scuola. I dispositivi della famiglia sono coperti solo dal Family Control facoltativo, scelto dal genitore ([ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)).
 - Sorveglianza generalizzata della vita privata.
 - Sostituzione dei servizi di emergenza, dei servizi sociali o delle procedure scolastiche ufficiali.
 - Decisioni disciplinari automatizzate.

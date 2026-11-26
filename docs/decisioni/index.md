@@ -23,6 +23,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0011](0011-multipiattaforma.md) | Architettura indipendente dalla piattaforma dei dispositivi | Accettata |
 | [0012](0012-responsabile-del-progetto.md) | Responsabile del progetto | Accettata |
 | [0013](0013-stack-tecnologico.md) | Stack tecnologico: Django 5.2 LTS, PostgreSQL, Kotlin senza servizi Google | Accettata |
+| [0014](0014-family-control-facoltativo-multipiattaforma.md) | Family Control facoltativo e multipiattaforma (Android, Windows, macOS, Linux) | Accettata (principi) |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

@@ -6,29 +6,33 @@ nav_order: 5
 
 # Family Control
 
-## Agreed model
+A **free, open-source** parental control integrated with the school's rules. It is **optional**: only the parent or guardian can turn it on (ADR-0014). The [Italian page](/docs/moduli/family-control/) is authoritative.
 
-Recorded in ADR-0002. EduWISP adopts two coordinated scopes:
+## Two coordinated scopes (ADR-0002)
 
-- **School scope:** the school governs institutional management, security baselines and educational activities.
-- **Family scope:** the parent/guardian can apply additional rules for home use and out-of-school time, within the delegations provided.
+The school governs the school tablet (security, education); parents can add rules for home use, without overriding security or mandatory education.
 
-## Goals
+## Devices
 
-- Encourage collaboration and transparency.
-- Make active rules understandable.
-- Allow time limits and usage rules where technically supported.
-- Avoid hidden policy conflicts.
-- Respect the student's age, progressive autonomy and rights.
+| Device | How | Status |
+|---|---|---|
+| School tablet | Family rules applied by the EduWISP DPC | Planned |
+| Family Android phones and tablets | `eduwisp-family-android` app, **no factory reset** | Planned |
+| Windows PC | `eduwisp-desktop-agent` | Planned (signing via SignPath Foundation, to apply) |
+| macOS | `eduwisp-desktop-agent` | To verify (paid Apple notarisation) |
+| Linux PC | `eduwisp-desktop-agent` | Planned |
+| iPhone, iPad | — | To assess (Apple entitlement, paid developer programme) |
 
-## Relationship verification
+## Features
 
-The parent/guardian-student relationship must be verified through a procedure defined by the school. Delegations, custody, changes and revocations must be handled without exposing unnecessary family information.
+**Planned:** daily time limits, time slots, web content filtering by category, allowed/blocked apps, aggregated usage summaries visible to the child too, extra-time requests, instant pause.
 
-## Limits
+**Excluded:** reading messages, chats or email; keylogging; screenshots or screen recording; call recording; continuous location tracking.
 
-Family Control is not a copy of Google Family Link and must not be presented as such. It must not allow covert surveillance, general access to private content or bypassing essential school rules.
+## Principles
 
-## Conflicts
+Parent's explicit choice (can be turned off anytime, never imposed by the school); data separated from the school; transparency towards the child with age-appropriate defaults; no copying of commercial products' names, brands or interfaces.
 
-Rules are not resolved by simple overriding. Each policy declares scope, priority, period, origin and rationale. Conflicts are shown to authorised administrators and resolved according to documented criteria.
+## Open points
+
+Data controllership, separated parents, involvement of children aged 14+, Apple support: see ADR-0014.
