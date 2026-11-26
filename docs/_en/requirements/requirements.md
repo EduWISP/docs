@@ -37,7 +37,7 @@ The following is a design baseline to be discussed and validated. It does not de
 | RF-022 | Show active rules and their origin. | Policy Engine | proposed |
 | RF-023 | Prevent family rules from overriding the security baseline. | Policy Engine | proposed |
 | RF-024 | Family Control only on the parent's explicit choice, can be turned off anytime. | Family Control | approved |
-| RF-025 | Support family devices: Android, Windows, macOS, Linux (iOS to be assessed). | Family Control | proposed |
+| RF-025 | Support family devices: Android, Windows and Linux; Apple (macOS, iOS, iPadOS) planned for a later phase. | Family Control | proposed |
 | RF-026 | Time limits, time slots, web filtering by category, allowed/blocked apps. | Family Control | proposed |
 | RF-027 | Aggregated usage summaries visible to parent and child; extra-time requests. | Family Control | proposed |
 | RF-028 | Family Control data separated from school data. | Family Control | approved |

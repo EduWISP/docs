@@ -21,6 +21,10 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 9 | Technical specifications | Not started |
 | 10 | Development | Not started |
 
+## Planned for later phases
+
+- **Family Control on Apple devices** (macOS, iPhone, iPad), requiring Apple's Family Controls entitlement and the Apple Developer Program (ADR-0014).
+
 ## Goal: Google Summer of Code
 
 The project aims to apply as a GSoC mentoring organisation. Requirements (2026): OSI-licensed released software, at least 18 months of history, a community with mentors, an AI-use policy. Realistic target: **GSoC 2029**, or earlier via an umbrella organisation.

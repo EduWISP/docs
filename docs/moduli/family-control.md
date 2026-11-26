@@ -24,9 +24,9 @@ Le regole familiari non possono annullare la sicurezza né impedire la didattica
 | Tablet della scuola | Regole familiari aggiuntive applicate dal DPC EduWISP | Previsto |
 | Telefoni e tablet Android della famiglia | App `eduwisp-family-android`, **senza ripristino di fabbrica** | Previsto |
 | PC Windows | `eduwisp-desktop-agent` | Previsto (firma: SignPath Foundation da richiedere) |
-| PC macOS | `eduwisp-desktop-agent` | Da verificare (notarizzazione Apple a pagamento) |
+| PC macOS | `eduwisp-desktop-agent` | **In programma** (fase successiva) |
 | PC Linux | `eduwisp-desktop-agent` | Previsto |
-| iPhone e iPad | — | Da valutare (autorizzazione Apple e programma sviluppatori a pagamento) |
+| iPhone e iPad | — | **In programma** (fase successiva: autorizzazione Apple e programma sviluppatori) |
 
 ## Funzioni
 
@@ -51,4 +51,4 @@ Le regole non si risolvono con una semplice sovrascrittura. Ogni policy dichiara
 
 ## Punti aperti
 
-Titolarità dei dati, genitori separati, coinvolgimento dei figli dai 14 anni, supporto Apple: vedi [ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md).
+Titolarità dei dati, genitori separati, coinvolgimento dei figli dai 14 anni; supporto Apple in programma: vedi [ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md).

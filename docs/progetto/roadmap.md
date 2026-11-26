@@ -21,6 +21,10 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 | 9 | Specifiche tecniche | Non iniziata |
 | 10 | Sviluppo | Non iniziato |
 
+## In programma per le fasi successive
+
+- **Family Control su dispositivi Apple** (macOS, iPhone, iPad): richiede l'autorizzazione *Family Controls* di Apple e l'Apple Developer Program ([ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)).
+
 ## Obiettivo: Google Summer of Code
 
 Il progetto punta a candidarsi come organizzazione mentore di [Google Summer of Code](https://summerofcode.withgoogle.com/). Requisiti (edizione 2026): software rilasciato con licenza OSI, almeno 18 mesi di storia, una comunità con mentori disponibili, una politica sull'uso dell'IA. Obiettivo realistico: **GSoC 2029**, oppure prima tramite un'organizzazione ombrello.

@@ -19,9 +19,9 @@ The school governs the school tablet (security, education); parents can add rule
 | School tablet | Family rules applied by the EduWISP DPC | Planned |
 | Family Android phones and tablets | `eduwisp-family-android` app, **no factory reset** | Planned |
 | Windows PC | `eduwisp-desktop-agent` | Planned (signing via SignPath Foundation, to apply) |
-| macOS | `eduwisp-desktop-agent` | To verify (paid Apple notarisation) |
+| macOS | `eduwisp-desktop-agent` | **Planned for a later phase** |
 | Linux PC | `eduwisp-desktop-agent` | Planned |
-| iPhone, iPad | — | To assess (Apple entitlement, paid developer programme) |
+| iPhone, iPad | — | **Planned for a later phase** |
 
 ## Features
 

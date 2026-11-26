@@ -18,7 +18,7 @@ Le famiglie usano servizi commerciali di parental control (per esempio Qustodio)
 1. **Facoltativo, scelto dal genitore.** Il Family Control si attiva **solo** su richiesta del genitore o tutore, che può disattivarlo in ogni momento. La scuola non può attivarlo, imporlo o condizionarlo. EduWISP funziona completamente anche senza.
 2. **Dispositivi coperti:**
    - il **tablet della scuola**, con regole aggiuntive per l'uso a casa (ADR-0002);
-   - i **dispositivi della famiglia**: telefoni e tablet Android, **PC Windows, macOS e Linux**. iPhone e iPad sono da valutare (vedi i vincoli sotto).
+   - i **dispositivi della famiglia**: telefoni e tablet Android, **PC Windows e Linux** nella prima fase; **Apple (macOS, iPhone, iPad) in programma** per una fase successiva (vedi i vincoli sotto).
 3. **Dati separati dalla scuola.** I dati del Family Control stanno in un dominio separato. La scuola **non vede nulla** dei dispositivi della famiglia. Sul tablet della scuola vede solo che esistono regole familiari attive (per gestire i conflitti), non i dati d'uso.
 4. **Funzioni ammesse:**
    - limiti di tempo giornalieri e **fasce orarie** (per esempio niente dispositivo dopo le 21);
@@ -39,8 +39,8 @@ Le famiglie usano servizi commerciali di parental control (per esempio Qustodio)
 
 | Tema | Vincolo | Stato |
 |---|---|---|
-| **iPhone e iPad** | Le API di parental control di Apple richiedono l'autorizzazione *Family Controls* concessa da Apple, e la distribuzione passa dall'App Store e dall'**Apple Developer Program, a pagamento**. | Da decidere: conflitto con «gratuito» per il progetto (non per le famiglie) |
-| **macOS** | Senza notarizzazione Apple (Developer ID, a pagamento) macOS blocca o avvisa all'installazione. Senza le API Apple le funzioni possibili sono più limitate. | Da verificare |
+| **iPhone e iPad** | Le API di parental control di Apple richiedono l'autorizzazione *Family Controls* concessa da Apple, e la distribuzione passa dall'App Store e dall'**Apple Developer Program, a pagamento**. | **In programma** (fase successiva) |
+| **macOS** | Senza notarizzazione Apple (Developer ID, a pagamento) macOS blocca o avvisa all'installazione. Senza le API Apple le funzioni possibili sono più limitate. | **In programma** (fase successiva) |
 | **Windows** | Senza firma digitale Windows SmartScreen mostra avvisi. **SignPath Foundation** offre firma gratuita ai progetti open source con build automatica. | Da richiedere |
 | **Android personale** | Senza *device owner* servono permessi standard (statistiche d'uso, VPN locale per il filtro, accessibilità). Le regole di Google Play su questi permessi sono severe: distribuzione anche tramite F-Droid o catalogo proprio. | Da verificare |
 | **Linux** | Nessun vincolo di distribuzione; servizio di sistema con filtro DNS. | — |
