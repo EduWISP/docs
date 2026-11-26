@@ -40,4 +40,4 @@ Leggi [CONTRIBUTING](https://github.com/EduWISP/.github/blob/main/CONTRIBUTING.m
 
 ## Licenza
 
-La licenza non è ancora stata scelta: vedi [LICENSE-STATUS.md](LICENSE-STATUS.md) e [ADR-0006](docs/decisioni/0006-licenza.md).
+Contenuti: [CC BY-SA 4.0](LICENSE). Citare «EduWISP — https://github.com/EduWISP». Il nome e il logo EduWISP sono esclusi dalla licenza ([politica del marchio](docs/progetto/marchio.md)). Vedi [ADR-0006](docs/decisioni/0006-licenza.md).

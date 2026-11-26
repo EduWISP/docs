@@ -46,4 +46,4 @@ Sono particolarmente utili:
 
 ## Licenza
 
-AGPL-3.0 è un'opzione da valutare, non una scelta approvata (vedi [ADR-0006](../decisioni/0006-licenza.md)). La licenza dovrà essere deliberata prima dell'avvio dello sviluppo e prima di accettare contributi di codice.
+Codice AGPL-3.0-or-later con termini aggiuntivi di attribuzione e tutela del nome; documentazione CC BY-SA 4.0; nome e logo esclusi ([ADR-0006](../decisioni/0006-licenza.md), [politica del marchio](marchio.md)). I contributi richiedono il DCO.

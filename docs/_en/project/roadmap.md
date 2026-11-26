@@ -17,9 +17,13 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 5 | Logical architecture and domains | Proposed |
 | 6 | Formal assessment of Android capabilities | Docs checked, device tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
 | 7 | Security, privacy and DPIA | To be detailed |
-| 8 | Governance and licence choice | To be decided (ADR-0006) |
+| 8 | Governance and licence choice | Decided (ADR-0006, ADR-0012) |
 | 9 | Technical specifications | Not started |
 | 10 | Development | Not started |
+
+## Goal: Google Summer of Code
+
+The project aims to apply as a GSoC mentoring organisation. Requirements (2026): OSI-licensed released software, at least 18 months of history, a community with mentors, an AI-use policy. Realistic target: **GSoC 2029**, or earlier via an umbrella organisation.
 
 ## Exit criteria for the design phase
 

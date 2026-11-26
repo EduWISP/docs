@@ -45,4 +45,4 @@ See [CONTRIBUTING](https://github.com/EduWISP/.github/blob/main/CONTRIBUTING.md)
 
 ## Licence
 
-AGPL-3.0 is an option under evaluation, not an approved choice (ADR-0006). The licence must be decided before development starts and before accepting code contributions.
+Code: AGPL-3.0-or-later with additional attribution and trademark terms; docs: CC BY-SA 4.0; name and logo excluded (ADR-0006, [trademark policy](trademark.md)). Contributions require a DCO sign-off.

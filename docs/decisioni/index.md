@@ -15,7 +15,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0003](0003-target-android.md) | Target Android e strada tecnica: DPC EduWISP open source | Proposta |
 | [0004](0004-debian-13-server.md) | Debian GNU/Linux 13 come piattaforma server di riferimento | Accettata |
 | [0005](0005-cloud-first-self-hostable.md) | Modello di distribuzione cloud-first ma self-hostable | Accettata |
-| [0006](0006-licenza.md) | Licenza del codice e della documentazione | Proposta |
+| [0006](0006-licenza.md) | Licenze: AGPL-3.0-or-later con attribuzione per il codice, CC BY-SA 4.0 per i testi, marchio escluso | Accettata |
 | [0007](0007-lingue-documentazione.md) | Documentazione bilingue, italiano predefinito | Accettata |
 | [0008](0008-conformita-normativa.md) | Conformità normativa come vincolo bloccante | Accettata |
 | [0009](0009-solo-software-libero.md) | Solo componenti open source e gratuiti | Accettata |
