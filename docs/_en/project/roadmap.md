@@ -15,7 +15,7 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 3 | School-family model | Agreed (ADR-0002) |
 | 4 | Cyberbullying & Digital Wellbeing requirements | To be detailed |
 | 5 | Logical architecture and domains | Proposed |
-| 6 | Formal assessment of Android Enterprise capabilities | To be verified ([matrix](../modules/android-compatibility-matrix.md)) |
+| 6 | Formal assessment of Android capabilities | Docs checked, device tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
 | 7 | Security, privacy and DPIA | To be detailed |
 | 8 | Governance and licence choice | To be decided (ADR-0006) |
 | 9 | Technical specifications | Not started |

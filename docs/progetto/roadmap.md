@@ -15,7 +15,7 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 | 3 | Modello scuola-famiglia | Concordato ([ADR-0002](../decisioni/0002-modello-scuola-famiglia.md)) |
 | 4 | Requisiti Cyberbullying & Digital Wellbeing | Da approfondire |
 | 5 | Architettura logica e domini | Proposta |
-| 6 | Verifica formale delle possibilità Android Enterprise | Da verificare ([matrice](../moduli/android-matrice-compatibilita.md)) |
+| 6 | Verifica formale delle possibilità Android | Documentazione verificata, test su dispositivi da fare ([matrice](../moduli/android-matrice-compatibilita.md)) |
 | 7 | Sicurezza, privacy e valutazione DPIA | Da approfondire |
 | 8 | Governance e scelta licenza | Da decidere ([ADR-0006](../decisioni/0006-licenza.md)) |
 | 9 | Specifiche tecniche | Non iniziata |

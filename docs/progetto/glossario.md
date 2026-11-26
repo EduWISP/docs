@@ -11,8 +11,10 @@ nav_order: 4
 | **ADR** | *Architecture Decision Record*: documento breve che registra una decisione progettuale, il contesto e le conseguenze. Vedi [Decisioni](../decisioni/index.md). |
 | **Ambito** | Contesto a cui appartiene una policy: sicurezza, didattica o famiglia. |
 | **Android Enterprise** | Insieme di funzionalità Android per la gestione di dispositivi aziendali o istituzionali. |
-| **AMAPI** | *Android Management API*: API Google per gestire dispositivi Android Enterprise. L'accesso è soggetto a condizioni Google. |
+| **AMAPI** | *Android Management API*: servizio proprietario Google per gestire dispositivi Android Enterprise. Escluso dal core di EduWISP (ADR-0009). |
 | **Baseline di sicurezza** | Insieme minimo di regole che nessuna policy meno privilegiata può indebolire. |
+| **DPC** | *Device Policy Controller*: l'app che gestisce il dispositivo come *device owner*. In EduWISP è il **DPC EduWISP**, open source. |
+| **Device owner** | Modalità in cui un'app DPC ha il controllo completo di un dispositivo Fully Managed. |
 | **DPIA** | *Data Protection Impact Assessment*: valutazione d'impatto sulla protezione dei dati prevista dal GDPR. |
 | **DPO** | *Data Protection Officer*: responsabile della protezione dei dati dell'istituto. |
 | **Enrollment / provisioning** | Procedura con cui un dispositivo viene registrato e messo sotto gestione. |

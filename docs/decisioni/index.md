@@ -12,12 +12,13 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 |---|---|---|
 | [0001](0001-uso-degli-adr.md) | Registrare le decisioni con ADR | Accettata |
 | [0002](0002-modello-scuola-famiglia.md) | Modello scuola-famiglia a due ambiti coordinati | Accettata |
-| [0003](0003-target-android.md) | Target iniziale: tablet Android GMS school-owned, Fully Managed | Proposta |
+| [0003](0003-target-android.md) | Target Android e strada tecnica: DPC EduWISP open source | Proposta |
 | [0004](0004-debian-13-server.md) | Debian GNU/Linux 13 come piattaforma server di riferimento | Accettata |
 | [0005](0005-cloud-first-self-hostable.md) | Modello di distribuzione cloud-first ma self-hostable | Accettata |
 | [0006](0006-licenza.md) | Licenza del codice e della documentazione | Proposta |
 | [0007](0007-lingue-documentazione.md) | Documentazione bilingue, italiano predefinito | Accettata |
 | [0008](0008-conformita-normativa.md) | Conformità normativa come vincolo bloccante | Accettata |
+| [0009](0009-solo-software-libero.md) | Solo componenti open source e gratuiti | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

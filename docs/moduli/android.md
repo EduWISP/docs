@@ -8,29 +8,31 @@ nav_order: 2
 
 ## Target
 
-Proposta registrata in [ADR-0003](../decisioni/0003-target-android.md).
+Tablet Android di proprietà degli istituti scolastici, gestiti in modalità **Fully Managed** (*device owner*), con o senza servizi Google (GMS). Proposta in [ADR-0003](../decisioni/0003-target-android.md).
 
-Tablet Android con Google Mobile Services, di proprietà degli istituti scolastici.
+## Strada tecnica
 
-## Modalità di gestione
+Per l'[ADR-0009](../decisioni/0009-solo-software-libero.md) ogni componente deve essere open source e gratuito. La gestione avviene quindi con componenti sviluppati dal progetto:
 
-Fully Managed / Android Enterprise è lo scenario primario da valutare. La scelta definitiva dipende da:
-- requisiti di enrollment e provisioning;
-- supporto dei produttori e delle versioni Android;
-- condizioni di accesso ai servizi Google;
-- disponibilità e limiti delle API;
-- sostenibilità per un progetto open source.
+| Componente | Ruolo |
+|---|---|
+| **DPC EduWISP** | App open source installata come *device owner*: applica policy, restrizioni, kiosk, aggiornamenti e fasce orarie, anche offline |
+| **Protocollo server-agente** | Interfaccia aperta, documentata e versionata tra il server EduWISP e il DPC |
+| **Catalogo app EduWISP** | Repository di APK firmati (sul modello di F-Droid) da cui il DPC installa e aggiorna le app in modo silenzioso |
+| **Provisioning** | QR code generato dal server EduWISP, che scarica e installa il DPC al primo avvio |
 
 ## Android Management API
 
-L'eventuale integrazione con Android Management API deve essere preceduta da una verifica formale delle condizioni Google, dei criteri di ammissione e dei casi d'uso consentiti. Non si presume che un progetto open source ottenga automaticamente accesso o approvazione. I flussi di dati verso Google vanno valutati secondo le regole GDPR sui trasferimenti internazionali.
+**Esclusa dal core.** È un servizio proprietario Google riservato a EMM commerciali, OEM e fornitori di Device Trust, con quote soggette ad approvazione e trattamento dei dati da parte di Google. Resta nella matrice solo come termine di confronto.
+
+## Rischio aperto: dispositivi con servizi Google
+
+Sui dispositivi con GMS, Play Protect consente durante la registrazione solo i DPC approvati da Android Enterprise. Le opzioni (verifica del DPC EduWISP, dispositivi AOSP, approccio misto) sono descritte in ADR-0003.
 
 ## Provider abstraction
 
-Il modello dati e le policy EduWISP dovrebbero essere indipendenti dal provider. Un adapter traduce le intenzioni canoniche nelle funzionalità supportate e segnala esplicitamente quelle non disponibili.
+Il modello dati e le policy EduWISP restano indipendenti dall'agente. Un adapter traduce le intenzioni canoniche nelle funzionalità supportate dal dispositivo e segnala esplicitamente quelle non disponibili.
 
 ## Matrice di compatibilità
 
-Prima dello sviluppo occorre compilare la [matrice di compatibilità](android-matrice-compatibilita.md) per ogni funzione: supportata, parzialmente supportata, non supportata, dipendente dal produttore/versione, oppure da verificare.
-
-Funzioni da verificare: provisioning QR, Fully Managed, installazione app, managed configurations, kiosk, restrizioni, Wi-Fi, certificati, aggiornamenti, blocco, wipe, inventario e telemetria.
+Lo stato di ogni funzione è nella [matrice di compatibilità](android-matrice-compatibilita.md).

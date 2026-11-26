@@ -22,9 +22,10 @@ Build an open platform that helps schools manage educational devices with centra
 
 ## Initial scope
 
-- Android devices with GMS.
+- School-owned Android tablets, with or without Google services (ADR-0003).
 - School-owned devices.
-- Fully Managed as the primary scenario, to be verified.
+- Fully Managed through an open-source EduWISP DPC.
+- Only open-source, free components (ADR-0009).
 - Debian GNU/Linux 13 Trixie servers.
 - Multi-tenancy for multiple schools.
 

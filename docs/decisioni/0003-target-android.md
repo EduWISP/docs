@@ -1,31 +1,42 @@
 ---
-title: "ADR-0003: Target iniziale: tablet Android GMS school-owned, Fully Managed"
+title: "ADR-0003: Target Android e strada tecnica di gestione"
 parent: Decisioni (ADR)
 nav_order: 3
 ---
 
-# ADR-0003: Target iniziale: tablet Android GMS school-owned, Fully Managed
+# ADR-0003: Target Android e strada tecnica di gestione
 
 - **Stato:** Proposta
-- **Data:** 2026-11-26
+- **Data:** 2026-11-26 (rivista dopo la verifica della matrice e l'ADR-0009)
 
 ## Contesto
 
-Serve un perimetro iniziale ristretto per poter verificare concretamente le funzionalità di gestione.
+Serve un perimetro iniziale ristretto. La [matrice di compatibilità](../moduli/android-matrice-compatibilita.md) mostra due strade: Android Management API (proprietaria, riservata a EMM commerciali) e un DPC proprio basato sulle API Android (open source). L'[ADR-0009](0009-solo-software-libero.md) impone componenti open source e gratuiti.
 
 ## Decisione proposta
 
-- Dispositivi: tablet Android con Google Mobile Services, di proprietà della scuola.
-- Modalità di gestione primaria: **Android Enterprise Fully Managed**.
-- Il BYOD è fuori dal perimetro iniziale.
-- Il core resta indipendente dal provider tramite un *provider adapter*.
+- **Dispositivi:** tablet Android di proprietà della scuola, gestiti in modalità **Fully Managed** (*device owner*). Il BYOD è fuori perimetro.
+- **Agente:** un **DPC EduWISP open source** che usa direttamente `DevicePolicyManager` e comunica con il server EduWISP tramite un protocollo aperto e documentato.
+- **App:** un **catalogo app EduWISP** (repository di APK firmati, sul modello di F-Droid) gestito dal server della scuola o del fornitore.
+- **Provisioning:** QR code con download del DPC dal server EduWISP. Lo zero-touch è da verificare.
+- **Android Management API:** esclusa dal core (ADR-0009).
+- Il modello dati resta indipendente dal provider tramite il *provider adapter*.
 
-## Punti da verificare prima dell'accettazione
+## Rischio bloccante aperto: approvazione del DPC sui dispositivi Google
 
-- Condizioni di accesso ad Android Management API per un progetto open source.
-- Compilazione della [matrice di compatibilità](../moduli/android-matrice-compatibilita.md).
-- Supporto dei produttori e delle versioni Android diffusi nelle scuole.
+Dal 2025, sui dispositivi con servizi Google, Play Protect blocca durante la registrazione i DPC non verificati da Android Enterprise. Possibili risposte, da valutare:
+
+1. **Chiedere la verifica** del DPC EduWISP ad Android Enterprise. Il DPC resta open source; l'approvazione è un controllo di sicurezza esterno, non una dipendenza dal software di Google. Il processo per nuovi DPC non è documentato pubblicamente.
+2. **Dispositivi senza servizi Google** (Android AOSP o distribuzioni libere): nessun blocco Play Protect, ma l'offerta per le scuole è più limitata.
+3. **Approccio misto:** DPC verificato sui dispositivi Google, DPC libero sui dispositivi AOSP.
+
+*Da verificare:* se il blocco riguarda tutti i metodi di provisioning, incluso il QR con URL di download, e da quale versione Android.
+
+## Punti aperti
+
+- Le app proprietarie usate dalle scuole e distribuite solo su Google Play: va definito se e come renderle disponibili senza managed Google Play, senza associare account Google personali ai minori.
+- Test su 2-3 modelli di tablet diffusi nelle scuole.
 
 ## Conseguenze
 
-Se AMAPI non fosse utilizzabile, andranno valutati provider alternativi senza cambiare il modello dati di EduWISP.
+Il progetto si fa carico dello sviluppo e della manutenzione dell'agente Android e del catalogo app. In cambio ottiene il controllo completo, il funzionamento offline delle fasce orarie e nessun trasferimento di dati di gestione verso terzi.

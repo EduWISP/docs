@@ -39,7 +39,8 @@ EduWISP is a proposal for an open-source platform combining **Mobile Device Mana
 
 ## Principles
 
-- **Open source**, modular, documented APIs.
+- **Only free and open-source software**: where a proprietary service would be needed, we build the alternative.
+- **Modular**, with documented APIs and protocols.
 - **Cloud-first but self-hostable**: no mandatory dependency on a proprietary cloud.
 - **Multi-tenancy**: data separated between schools.
 - **Privacy by design**: data minimisation, no student surveillance.

@@ -24,6 +24,8 @@ The following is a design baseline to be discussed and validated. It does not de
 | RF-013 | Apply managed configurations and compatible restrictions. | MDM | proposed |
 | RF-014 | Support educational profiles and temporary modes, if allowed by the provider. | Policy Engine | proposed |
 | RF-015 | Record policy synchronisation outcome and date. | MDM | proposed |
+| RF-016 | Provide an own app catalogue (signed APKs) for distribution without proprietary stores. | Application Management | proposed |
+| RF-017 | Generate provisioning QR codes for the EduWISP DPC. | MDM | proposed |
 | RF-020 | Verify the parent/guardian-student relationship. | Family Control | proposed |
 | RF-021 | Allow additional family rules within authorised scopes. | Family Control | proposed |
 | RF-022 | Show active rules and their origin. | Policy Engine | proposed |
@@ -50,6 +52,8 @@ The following is a design baseline to be discussed and validated. It does not de
 | RNF-009 | Resilience to intermittent connectivity, within Android limits. | proposed |
 | RNF-010 | Backup, restore and incident procedures to be specified. | proposed |
 | RNF-011 | Reference server platform: Debian GNU/Linux 13 (Trixie). | approved |
+| RNF-012 | All required components are open source and free; no proprietary service in the core (ADR-0009). | approved |
+| RNF-013 | Open, documented, versioned server-agent protocol. | proposed |
 
 ## Compliance requirements
 

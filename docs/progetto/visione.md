@@ -22,9 +22,10 @@ Costruire una piattaforma aperta che aiuti gli istituti a gestire i dispositivi 
 
 ## Perimetro iniziale
 
-- Dispositivi Android con GMS.
+- Tablet Android di proprietà della scuola, con o senza servizi Google (vedi ADR-0003).
 - Dispositivi di proprietà della scuola (school-owned).
-- Gestione Fully Managed come scenario primario da verificare.
+- Gestione Fully Managed tramite un DPC EduWISP open source.
+- Solo componenti open source e gratuiti (ADR-0009).
 - Server Debian GNU/Linux 13 Trixie.
 - Multi-tenancy per più istituti.
 

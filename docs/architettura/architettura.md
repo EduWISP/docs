@@ -10,6 +10,7 @@ nav_order: 1
 
 - Separazione dei domini funzionali.
 - Core indipendente dal provider MDM.
+- Solo componenti open source e gratuiti, nessun servizio cloud proprietario nel core ([ADR-0009](../decisioni/0009-solo-software-libero.md)).
 - API documentate e versionate.
 - Multi-tenancy e isolamento dei dati.
 - Audit e autorizzazioni trasversali.
@@ -49,7 +50,9 @@ School Portal     Family Portal     Student Reporting
                         |
                  Provider Adapter
                         |
-                Android Management
+         Protocollo aperto server ↔ agente
+                        |
+        DPC EduWISP (device owner) + catalogo app
 ```
 
 ## Ipotesi tecnologiche

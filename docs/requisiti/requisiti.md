@@ -31,6 +31,8 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RF-013 | Applicare configurazioni gestite e restrizioni compatibili. | MDM | proposto |
 | RF-014 | Supportare profili didattici e modalità temporanee, se consentite dal provider. | Policy Engine | proposto |
 | RF-015 | Registrare esito e data di sincronizzazione delle policy. | MDM | proposto |
+| RF-016 | Fornire un catalogo app proprio (APK firmati) per la distribuzione senza store proprietari. | Application Management | proposto |
+| RF-017 | Generare QR code di provisioning per il DPC EduWISP. | MDM | proposto |
 
 ### Family Control
 
@@ -67,6 +69,8 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RNF-009 | Funzionamento resiliente con connettività intermittente, nei limiti del sistema Android. | proposto |
 | RNF-010 | Procedure di backup, ripristino e gestione degli incidenti da specificare. | proposto |
 | RNF-011 | Server di riferimento Debian GNU/Linux 13 (Trixie). Vedi [ADR-0004](../decisioni/0004-debian-13-server.md). | approvato |
+| RNF-012 | Tutti i componenti necessari sono open source e gratuiti; nessun servizio proprietario nel core. Vedi [ADR-0009](../decisioni/0009-solo-software-libero.md). | approvato |
+| RNF-013 | Protocollo server-agente aperto, documentato e versionato. | proposto |
 
 ## Requisiti di conformità
 
