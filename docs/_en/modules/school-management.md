@@ -31,6 +31,10 @@ EduWISP must represent:
 - A comprehensive institute (*istituto comprensivo*) groups pre-school, primary and lower secondary; each site has its own level.
 - Classes belong to a **school year** (1 September – 31 August). A guided **year rollover** advances classes (1A → 2A), graduates final-year classes, creates new ones and reassigns devices and policies.
 
+### Teachers and classes
+
+A teacher teaches in **several classes**, often across sections and years; each class has **several teachers**. A **teaching assignment** links teacher, class, subject, school year and type (curricular, class coordinator, special-needs support). Assignments change every year (and with substitutions). A teacher may work in several sites or even several schools, and sees only their own classes in each. **Permissions derive from assignments**: a teacher can trigger teaching modes only on devices of their current classes. Special-needs support pairings may reveal a disability (GDPR Art. 9): not stored unless indispensable, and then with restricted access.
+
 ## Proposed roles
 
 | Role | Scope |

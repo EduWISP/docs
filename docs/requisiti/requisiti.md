@@ -24,6 +24,8 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RF-006 | Permettere a ogni istituto e plesso di definire le proprie sezioni (e, per le superiori, gli indirizzi). | Gestione scolastica | proposto |
 | RF-007 | Organizzare classi e assegnazioni per anno scolastico. | Gestione scolastica | proposto |
 | RF-008 | Offrire un passaggio d'anno guidato: avanzamento delle classi, uscita delle classi terminali, riassegnazione di dispositivi e policy. | Gestione scolastica | proposto |
+| RF-009 | Gestire gli incarichi di insegnamento (docente, classe, disciplina, anno scolastico, tipo): un docente può avere più classi e sezioni, una classe più docenti. | Gestione scolastica | proposto |
+| RF-010 | Limitare le azioni didattiche del docente alle classi dei propri incarichi nell'anno in corso, anche se lavora in più plessi o istituti. | Gestione scolastica | proposto |
 
 ### MDM e applicazioni
 
@@ -96,6 +98,7 @@ Derivano dal [Quadro normativo](../sicurezza-privacy/quadro-normativo.md) e sono
 | RC-009 | Strumenti per gli adempimenti della scuola: registro dei trattamenti, informative, DPIA, accordo art. 28. | proposto |
 | RC-010 | Log e audit sul personale conformi all'art. 4 dello Statuto dei lavoratori. | approvato |
 | RC-011 | Interfacce conformi ai requisiti di accessibilità per la PA. | proposto |
+| RC-013 | Nessuna registrazione di dati che rivelino disabilità (per esempio abbinamenti di sostegno al singolo studente) se non indispensabile; in quel caso accesso ristretto e finalità documentata (GDPR art. 9). | approvato |
 | RC-012 | Nessuna funzione di IA senza ADR dedicato, analisi AI Act e DPIA; vietato il riconoscimento delle emozioni. | approvato |
 
 ## Criteri di accettazione progettuale

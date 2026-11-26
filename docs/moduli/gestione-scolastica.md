@@ -36,6 +36,16 @@ Regole che ne derivano:
 - Le classi appartengono a un **anno scolastico** (1° settembre – 31 agosto). A fine anno serve un **passaggio d'anno** guidato: le classi avanzano (1ª A → 2ª A), le classi terminali escono, se ne creano di nuove, e dispositivi e policy vanno riassegnati di conseguenza.
 - I dati degli anni passati vanno conservati solo per il tempo necessario (RC-002).
 
+### Docenti e classi
+
+Un docente insegna in **più classi**, spesso di sezioni e anni diversi; ogni classe ha **più docenti** (il consiglio di classe). Per esempio, un docente di matematica può avere 1ª A, 2ª A e 3ª A (lo stesso «corso») oppure 1ª A e 1ª C.
+
+- L'**incarico di insegnamento** collega: docente, classe, disciplina, anno scolastico e tipo di incarico (curricolare, coordinatore di classe, sostegno).
+- Gli incarichi **cambiano ogni anno scolastico** e possono cambiare durante l'anno (supplenze).
+- Un docente può lavorare in **più plessi** o anche in **più istituti** (cattedre orario esterne): può quindi appartenere a più organizzazioni, e in ciascuna vede solo le proprie classi.
+- **I permessi derivano dagli incarichi:** un docente può attivare modalità didattiche (lezione, verifica) solo sui dispositivi delle classi in cui insegna in quell'anno, e mai su quelle di altri.
+- **Sostegno:** l'abbinamento tra docente di sostegno e singolo studente può rivelare una disabilità, cioè un dato particolare (GDPR art. 9). Il sistema non deve registrarlo se non è indispensabile, e comunque con accesso ristretto e finalità documentata.
+
 ## Ruoli proposti
 
 | Ruolo | Ambito |

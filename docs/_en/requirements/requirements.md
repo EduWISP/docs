@@ -22,6 +22,8 @@ The following is a design baseline to be discussed and validated. It does not de
 | RF-006 | Let each school and site define its own sections (and study tracks for upper secondary). | School management | proposed |
 | RF-007 | Organise classes and assignments by school year. | School management | proposed |
 | RF-008 | Guided year rollover: advance classes, graduate final years, reassign devices and policies. | School management | proposed |
+| RF-009 | Manage teaching assignments (teacher, class, subject, school year, type): many classes per teacher, many teachers per class. | School management | proposed |
+| RF-010 | Restrict a teacher's teaching actions to their current assignments, even across sites or schools. | School management | proposed |
 | RF-010 | Enroll devices through supported provisioning methods. | MDM | proposed |
 | RF-011 | Keep a minimal device and software inventory. | MDM | proposed |
 | RF-012 | Assign mandatory and optional apps. | Application Management | proposed |
@@ -79,6 +81,7 @@ Derived from the [legal framework](../security-privacy/legal-framework.md); bind
 | RC-009 | Tools supporting school obligations: records of processing, notices, DPIA, Art. 28 agreement. | proposed |
 | RC-010 | Staff logs and audits compliant with Art. 4 of the Italian Workers' Statute. | approved |
 | RC-011 | Interfaces compliant with Italian public-sector accessibility requirements. | proposed |
+| RC-013 | No data revealing disabilities (e.g. per-student support pairings) unless indispensable, then restricted access and documented purpose (GDPR Art. 9). | approved |
 | RC-012 | No AI feature without a dedicated ADR, AI Act analysis and DPIA; emotion recognition is prohibited. | approved |
 
 ## Acceptance criteria
