@@ -62,9 +62,9 @@ School Portal     Family Portal     Student Reporting
 
 Each domain maps to one or more independent repositories (ADR-0010). See [Repository layout](repositories.md).
 
-## Technology assumptions
+## Tech stack
 
-The stack is decided in ADR-0013: Python 3.13 and Django 5.2 LTS, PostgreSQL 17, Celery with Valkey, HTMX and Bootstrap Italia; Kotlin Android agent with no Google services. The choice will consider community skills, maintainability, security, accessibility, cost and Debian 13 support.
+The stack is decided in ADR-0013: Python 3.13 and Django 5.2 LTS, PostgreSQL 17, Celery with Valkey, HTMX and Bootstrap Italia; Kotlin Android agent with no Google services.
 
 ## Multi-tenancy
 
