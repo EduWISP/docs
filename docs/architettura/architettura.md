@@ -64,7 +64,7 @@ Ogni dominio corrisponde a uno o più repository indipendenti ([ADR-0010](../dec
 
 ## Ipotesi tecnologiche
 
-Framework, database, codebase e modalità di esecuzione non sono ancora decisioni. La scelta dovrà considerare competenze della comunità, manutenibilità, sicurezza, accessibilità, costi e supporto a Debian 13.
+Lo stack è deciso in [ADR-0013](../decisioni/0013-stack-tecnologico.md): Python 3.13 e Django 5.2 LTS, PostgreSQL 17, Celery con Valkey, HTMX e Bootstrap Italia per l'interfaccia; agente Android in Kotlin senza servizi Google. La scelta dovrà considerare competenze della comunità, manutenibilità, sicurezza, accessibilità, costi e supporto a Debian 13.
 
 ## Multi-tenancy
 

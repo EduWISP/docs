@@ -64,7 +64,7 @@ Each domain maps to one or more independent repositories (ADR-0010). See [Reposi
 
 ## Technology assumptions
 
-Framework, database, codebase and runtime are not decided yet. The choice will consider community skills, maintainability, security, accessibility, cost and Debian 13 support.
+The stack is decided in ADR-0013: Python 3.13 and Django 5.2 LTS, PostgreSQL 17, Celery with Valkey, HTMX and Bootstrap Italia; Kotlin Android agent with no Google services. The choice will consider community skills, maintainability, security, accessibility, cost and Debian 13 support.
 
 ## Multi-tenancy
 

@@ -6,7 +6,7 @@ nav_order: 13
 
 # ADR-0013: Stack tecnologico
 
-- **Stato:** Proposta
+- **Stato:** Accettata
 - **Data:** 2026-11-26
 
 ## Contesto
@@ -15,7 +15,7 @@ Vincoli già decisi: server di riferimento Debian 13 ([ADR-0004](0004-debian-13-
 
 Versioni verificate in Debian 13 il 2026-11-26: Python 3.13, PostgreSQL 17, Valkey 8.1, Celery 5.5, nginx 1.26, Django REST Framework 3.16. Django è alla 4.2, il cui supporto ufficiale è terminato ad aprile 2026. Kotlin (1.3) e Gradle (4.4) di Debian sono troppo vecchi per lo sviluppo Android.
 
-## Decisione proposta
+## Decisione
 
 ### Server
 
