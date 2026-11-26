@@ -10,7 +10,11 @@ nav_order: 3
 
 EduWISP aims to be a community project, with documented decisions and transparent processes.
 
-## Roles to be defined
+## Project lead
+
+The project lead is **Michele Salerno**, founder of EduWISP (ADR-0012): final say on decisions, appoints module owners, owns the EduWISP name and logo.
+
+## Roles
 
 - Maintainers.
 - Module owners: each module has its own repository and can be owned independently (ADR-0010).

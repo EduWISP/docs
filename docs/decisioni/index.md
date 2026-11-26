@@ -21,6 +21,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0009](0009-solo-software-libero.md) | Solo componenti open source e gratuiti | Accettata |
 | [0010](0010-un-repository-per-modulo.md) | Un repository per ogni modulo | Accettata |
 | [0011](0011-multipiattaforma.md) | Architettura indipendente dalla piattaforma dei dispositivi | Accettata |
+| [0012](0012-responsabile-del-progetto.md) | Responsabile del progetto | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

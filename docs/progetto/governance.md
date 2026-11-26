@@ -10,7 +10,11 @@ nav_order: 3
 
 EduWISP aspira a essere un progetto comunitario, con decisioni documentate e processi trasparenti.
 
-## Ruoli da definire
+## Responsabile del progetto
+
+Il responsabile del progetto è **Michele Salerno**, fondatore di EduWISP ([ADR-0012](../decisioni/0012-responsabile-del-progetto.md)). Ha l'ultima parola sulle decisioni, nomina i responsabili dei moduli ed è titolare del nome e del logo EduWISP.
+
+## Ruoli
 
 - Maintainer.
 - Responsabili dei moduli (*module owner*): ogni modulo ha un proprio repository e può essere preso in carico in modo indipendente ([ADR-0010](../decisioni/0010-un-repository-per-modulo.md)).
