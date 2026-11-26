@@ -20,6 +20,10 @@ I requisiti seguenti sono una baseline progettuale da discutere e validare. Non 
 | RF-002 | Gestire ruoli e permessi granulari. | Core | proposto |
 | RF-003 | Rappresentare plessi, classi, gruppi, docenti e studenti. | Gestione scolastica | proposto |
 | RF-004 | Associare e riassegnare dispositivi secondo procedure autorizzate. | MDM | proposto |
+| RF-005 | Gestire più ordini di scuola (infanzia, primaria, secondaria di primo e di secondo grado), ciascuno con la propria durata (3 o 5 anni). | Gestione scolastica | proposto |
+| RF-006 | Permettere a ogni istituto e plesso di definire le proprie sezioni (e, per le superiori, gli indirizzi). | Gestione scolastica | proposto |
+| RF-007 | Organizzare classi e assegnazioni per anno scolastico. | Gestione scolastica | proposto |
+| RF-008 | Offrire un passaggio d'anno guidato: avanzamento delle classi, uscita delle classi terminali, riassegnazione di dispositivi e policy. | Gestione scolastica | proposto |
 
 ### MDM e applicazioni
 

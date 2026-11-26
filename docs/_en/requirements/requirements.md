@@ -18,6 +18,10 @@ The following is a design baseline to be discussed and validated. It does not de
 | RF-002 | Manage granular roles and permissions. | Core | proposed |
 | RF-003 | Represent sites, classes, groups, teachers and students. | School management | proposed |
 | RF-004 | Assign and reassign devices through authorised procedures. | MDM | proposed |
+| RF-005 | Support multiple school levels, each with its own duration (3 or 5 years). | School management | proposed |
+| RF-006 | Let each school and site define its own sections (and study tracks for upper secondary). | School management | proposed |
+| RF-007 | Organise classes and assignments by school year. | School management | proposed |
+| RF-008 | Guided year rollover: advance classes, graduate final years, reassign devices and policies. | School management | proposed |
 | RF-010 | Enroll devices through supported provisioning methods. | MDM | proposed |
 | RF-011 | Keep a minimal device and software inventory. | MDM | proposed |
 | RF-012 | Assign mandatory and optional apps. | Application Management | proposed |

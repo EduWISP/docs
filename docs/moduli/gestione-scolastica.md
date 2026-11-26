@@ -17,6 +17,25 @@ EduWISP dovrà rappresentare:
 - genitori e tutori;
 - dispositivi e assegnazioni.
 
+## Struttura delle scuole italiane
+
+Il modello deve riflettere come sono organizzate davvero le scuole, senza imporre una struttura unica.
+
+| Ordine di scuola | Durata | Note |
+|---|---|---|
+| Scuola dell'infanzia | — | Organizzata per **sezioni**, spesso di età mista |
+| Scuola primaria | 5 anni | Classi dalla 1ª alla 5ª |
+| Secondaria di primo grado (scuola media) | **3 anni** | Classi dalla 1ª alla 3ª |
+| Secondaria di secondo grado (superiori) | **5 anni** | Classi dalla 1ª alla 5ª, con **indirizzi** e articolazioni (licei, tecnici, professionali) |
+
+Regole che ne derivano:
+
+- **Una classe = anno + sezione**, per esempio 2ª B. Le **sezioni variano per ogni istituto**: nome, numero e indirizzo collegato li decide la scuola, e possono essere diversi tra i plessi dello stesso istituto.
+- **La durata dipende dall'ordine di scuola**, non è un valore fisso del sistema.
+- Un **istituto comprensivo** riunisce infanzia, primaria e secondaria di primo grado; un istituto superiore può avere più indirizzi. Ogni plesso ha un proprio ordine di scuola.
+- Le classi appartengono a un **anno scolastico** (1° settembre – 31 agosto). A fine anno serve un **passaggio d'anno** guidato: le classi avanzano (1ª A → 2ª A), le classi terminali escono, se ne creano di nuove, e dispositivi e policy vanno riassegnati di conseguenza.
+- I dati degli anni passati vanno conservati solo per il tempo necessario (RC-002).
+
 ## Ruoli proposti
 
 | Ruolo | Ambito |

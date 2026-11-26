@@ -17,6 +17,20 @@ EduWISP must represent:
 - parents and guardians;
 - devices and assignments.
 
+## Italian school structure
+
+| School level | Duration | Notes |
+|---|---|---|
+| Pre-school (*infanzia*) | — | Organised in **sections**, often mixed-age |
+| Primary | 5 years | Classes 1–5 |
+| Lower secondary (*scuola media*) | **3 years** | Classes 1–3 |
+| Upper secondary (*superiori*) | **5 years** | Classes 1–5, with **study tracks** (*indirizzi*) |
+
+- **A class = year + section** (e.g. 2B). **Sections vary per school** and may differ between sites of the same school.
+- **Duration depends on the school level**, it is not a fixed system value.
+- A comprehensive institute (*istituto comprensivo*) groups pre-school, primary and lower secondary; each site has its own level.
+- Classes belong to a **school year** (1 September – 31 August). A guided **year rollover** advances classes (1A → 2A), graduates final-year classes, creates new ones and reassigns devices and policies.
+
 ## Proposed roles
 
 | Role | Scope |
