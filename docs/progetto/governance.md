@@ -13,7 +13,7 @@ EduWISP aspira a essere un progetto comunitario, con decisioni documentate e pro
 ## Ruoli da definire
 
 - Maintainer.
-- Responsabili dei moduli.
+- Responsabili dei moduli (*module owner*): ogni modulo ha un proprio repository e può essere preso in carico in modo indipendente ([ADR-0010](../decisioni/0010-un-repository-per-modulo.md)).
 - Revisori tecnici.
 - Referenti documentazione.
 - Referenti sicurezza e privacy.

@@ -18,3 +18,4 @@ ADRs are written in Italian (ADR-0007). This is an English summary; follow the l
 | [0007](/docs/decisioni/0007-lingue-documentazione/) | Bilingual documentation, Italian default and authoritative | Accepted |
 | [0008](/docs/decisioni/0008-conformita-normativa/) | Legal compliance (minors, GDPR, Italian law) is a blocking constraint | Accepted |
 | [0009](/docs/decisioni/0009-solo-software-libero/) | Only open-source, free-of-charge components; build alternatives to proprietary services | Accepted |
+| [0010](/docs/decisioni/0010-un-repository-per-modulo/) | One repository per module, so each can be owned independently | Accepted |

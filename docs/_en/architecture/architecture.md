@@ -55,6 +55,10 @@ School Portal     Family Portal     Student Reporting
       EduWISP DPC (device owner) + app catalogue
 ```
 
+## Repositories
+
+Each domain maps to one or more independent repositories (ADR-0010). See [Repository layout](repositories.md).
+
 ## Technology assumptions
 
 Framework, database, codebase and runtime are not decided yet. The choice will consider community skills, maintainability, security, accessibility, cost and Debian 13 support.

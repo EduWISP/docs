@@ -55,6 +55,10 @@ School Portal     Family Portal     Student Reporting
         DPC EduWISP (device owner) + catalogo app
 ```
 
+## Repository
+
+Ogni dominio corrisponde a uno o più repository indipendenti ([ADR-0010](../decisioni/0010-un-repository-per-modulo.md)). La mappa completa è in [Organizzazione dei repository](repository.md).
+
 ## Ipotesi tecnologiche
 
 Framework, database, codebase e modalità di esecuzione non sono ancora decisioni. La scelta dovrà considerare competenze della comunità, manutenibilità, sicurezza, accessibilità, costi e supporto a Debian 13.

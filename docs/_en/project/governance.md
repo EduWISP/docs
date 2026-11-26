@@ -13,7 +13,7 @@ EduWISP aims to be a community project, with documented decisions and transparen
 ## Roles to be defined
 
 - Maintainers.
-- Module owners.
+- Module owners: each module has its own repository and can be owned independently (ADR-0010).
 - Technical reviewers.
 - Documentation leads.
 - Security and privacy leads.

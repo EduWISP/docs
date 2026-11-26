@@ -19,6 +19,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0007](0007-lingue-documentazione.md) | Documentazione bilingue, italiano predefinito | Accettata |
 | [0008](0008-conformita-normativa.md) | Conformità normativa come vincolo bloccante | Accettata |
 | [0009](0009-solo-software-libero.md) | Solo componenti open source e gratuiti | Accettata |
+| [0010](0010-un-repository-per-modulo.md) | Un repository per ogni modulo | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 
