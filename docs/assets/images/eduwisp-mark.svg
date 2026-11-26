@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t">
+  <title id="t">EduWISP</title>
+  <rect width="256" height="256" rx="56" fill="#163E73"/>
+  <g fill="none" stroke="#2EC4A0" stroke-width="14" stroke-linecap="round"><path d="M106.79 104.79A30 30 0 0 1 149.21 104.79"/><path d="M91.23 89.23A52 52 0 0 1 164.77 89.23"/><path d="M75.67 73.67A74 74 0 0 1 180.33 73.67"/></g>
+  <circle cx="128" cy="126" r="10" fill="#2EC4A0"/>
+  <g fill="#FFFFFF">
+    <path d="M121 204C102 191 78 186 52 189V141C78 137 102 142 121 154Z"/>
+    <path d="M135 204C154 191 178 186 204 189V141C178 137 154 142 135 154Z"/>
+  </g>
+</svg>

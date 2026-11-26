@@ -1,6 +1,8 @@
 title: EduWISP
 description: Piattaforma open source per la gestione dei dispositivi Android scolastici
 lang: it
+logo: "/assets/images/eduwisp-logo.svg"
+favicon_ico: "/favicon.ico"
 url: "https://eduwisp.github.io"
 baseurl: "/docs"
 permalink: pretty
