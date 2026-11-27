@@ -21,6 +21,11 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 | 9 | Specifiche tecniche | Non iniziata |
 | 10 | Sviluppo | Non iniziato |
 
+## Ambienti
+
+- **Ora:** `demo.eduwisp.org` su `server.eduwisp.org`, solo con dati fittizi.
+- **Dopo i requisiti legali:** `pilota.eduwisp.org` con scuole aderenti ([ADR-0015](../decisioni/0015-ambienti-del-progetto.md)).
+
 ## In programma per le fasi successive
 
 - **Family Control su dispositivi Apple** (macOS, iPhone, iPad): richiede l'autorizzazione *Family Controls* di Apple e l'Apple Developer Program ([ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)).

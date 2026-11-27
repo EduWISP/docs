@@ -24,6 +24,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0012](0012-responsabile-del-progetto.md) | Responsabile del progetto | Accettata |
 | [0013](0013-stack-tecnologico.md) | Stack tecnologico: Django 5.2 LTS, PostgreSQL, Kotlin senza servizi Google | Accettata |
 | [0014](0014-family-control-facoltativo-multipiattaforma.md) | Family Control facoltativo e multipiattaforma (Android, Windows, Linux; Apple in programma) | Accettata (principi) |
+| [0015](0015-ambienti-del-progetto.md) | Ambienti: server.eduwisp.org, demo con dati fittizi, pilota solo dopo i requisiti legali | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

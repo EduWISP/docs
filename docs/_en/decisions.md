@@ -20,6 +20,7 @@ ADRs are written in Italian (ADR-0007). This is an English summary; follow the l
 | [0009](/docs/decisioni/0009-solo-software-libero/) | Only open-source, free-of-charge components; build alternatives to proprietary services | Accepted |
 | [0010](/docs/decisioni/0010-un-repository-per-modulo/) | One repository per module, so each can be owned independently | Accepted |
 | [0014](/docs/decisioni/0014-family-control-facoltativo-multipiattaforma/) | Optional, parent-chosen Family Control: open-source parental control for the school tablet and family devices (Android, Windows, Linux first; Apple planned for a later phase); data separated from the school; no covert surveillance | Accepted (principles) |
+| [0015](/docs/decisioni/0015-ambienti-del-progetto/) | Environments: server.eduwisp.org; demo with fictitious data only; pilot with real data only after DPIA, legal entity, Art. 28 agreements, ACN check and EU hosting | Accepted |
 | [0013](/docs/decisioni/0013-stack-tecnologico/) | Tech stack: Python 3.13 + Django 5.2 LTS, DRF, PostgreSQL 17, Celery + Valkey, HTMX + Bootstrap Italia; Kotlin agent with no Google Play Services, UnifiedPush | Accepted |
 | [0012](/docs/decisioni/0012-responsabile-del-progetto/) | Project lead: Michele Salerno (final say on decisions, appoints module owners, owns the EduWISP name and logo) | Accepted |
 | [0011](/docs/decisioni/0011-multipiattaforma/) | Platform-independent core: Android is the first agent, other platforms can be added via new agents and protocol profiles | Accepted |

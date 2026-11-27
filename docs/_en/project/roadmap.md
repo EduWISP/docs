@@ -21,6 +21,11 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 9 | Technical specifications | Not started |
 | 10 | Development | Not started |
 
+## Environments
+
+- **Now:** `demo.eduwisp.org` on `server.eduwisp.org`, fictitious data only.
+- **After legal requirements:** `pilota.eduwisp.org` with participating schools (ADR-0015).
+
 ## Planned for later phases
 
 - **Family Control on Apple devices** (macOS, iPhone, iPad), requiring Apple's Family Controls entitlement and the Apple Developer Program (ADR-0014).
