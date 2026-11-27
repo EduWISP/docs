@@ -27,7 +27,7 @@ Il progetto ha acquistato il dominio **eduwisp.org** e dispone di una macchina v
 | Ambiente | Indirizzo | Dati | Quando |
 |---|---|---|---|
 | **Sito e documentazione** | `eduwisp.org`, `eduwisp.org/docs/` | Nessun dato personale | Ora |
-| **Demo** | `demo.eduwisp.org` → `server.eduwisp.org` | **Solo dati fittizi** | Ora |
+| **Demo** | `demo.eduwisp.org` → `server.eduwisp.org` | **Solo dati fittizi**; accesso pubblico con utente `demo` e password `demo`, in sola lettura | Ora |
 | **Pilota** | `pilota.eduwisp.org` | Dati reali di scuole aderenti | Solo dopo i requisiti sotto |
 
 **Demo:**

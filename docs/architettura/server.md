@@ -10,7 +10,7 @@ Decisioni in [ADR-0016](../decisioni/0016-architettura-del-server.md). Installaz
 
 ## Stato dell'implementazione
 
-Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https://demo.eduwisp.org), solo dati fittizi).
+Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https://demo.eduwisp.org), solo dati fittizi; accesso con utente `demo` e password `demo`, in sola lettura).
 
 | Componente | Stato |
 |---|---|
