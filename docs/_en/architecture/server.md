@@ -6,7 +6,7 @@ nav_order: 5
 
 # Server architecture
 
-Proposed in ADR-0016; the [Italian page](/docs/architettura/server/) is authoritative.
+Decided in ADR-0016; the [Italian page](/docs/architettura/server/) is authoritative.
 
 - **Single Debian 13 VM to start, ready to grow:** nginx (TLS, static files, rate limiting), Django + gunicorn (UI and API, stateless), PostgreSQL 17, Valkey (local-only message broker), Celery worker and beat; each service with its own user and systemd sandboxing.
 - **Data separation:** Family Control in a separate database (possibly another server); cyberbullying data in a separate PostgreSQL schema with a dedicated role and application-level encryption of sensitive fields; disk encryption recommended in production.

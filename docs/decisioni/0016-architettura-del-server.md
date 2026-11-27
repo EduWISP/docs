@@ -6,14 +6,14 @@ nav_order: 16
 
 # ADR-0016: Architettura del server
 
-- **Stato:** Proposta
+- **Stato:** Accettata
 - **Data:** 2026-11-27
 
 ## Contesto
 
 Il ruolo `ansible-eduwisp` installa già applicazione, database, web e sicurezza ([ADR-0015](0015-ambienti-del-progetto.md)). Mancano le decisioni su attività in background, separazione dei dati, backup, aggiornamenti, monitoraggio e dimensionamento. Vanno prese **prima** della ISO di installazione, che impacchetterà questa architettura. La descrizione completa è nella pagina [Architettura del server](../architettura/server.md).
 
-## Decisione proposta
+## Decisione
 
 1. **Un solo server di partenza, pronto a crescere.** Tutti i componenti stanno su un'unica VM Debian 13. L'applicazione non conserva stato in memoria, così in futuro si possono aggiungere istanze e separare il database senza riscriverla.
 2. **Componenti:** nginx (TLS, file statici, limite di richieste sulle API), Django con gunicorn (interfaccia e API), PostgreSQL 17 (unica fonte dei dati), **Valkey** (coda dei messaggi, raggiungibile solo in locale), **Celery** worker e Celery beat (attività in background e pianificate). Ogni servizio gira come utente dedicato con l'isolamento di systemd.
