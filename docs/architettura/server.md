@@ -8,6 +8,27 @@ nav_order: 5
 
 Decisioni in [ADR-0016](../decisioni/0016-architettura-del-server.md). Installazione con il ruolo [`ansible-eduwisp`](https://github.com/EduWISP/ansible-eduwisp).
 
+## Stato dell'implementazione
+
+Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https://demo.eduwisp.org), solo dati fittizi).
+
+| Componente | Stato |
+|---|---|
+| nginx con TLS, header di sicurezza, limiti di richieste | ✅ attivo |
+| Django + gunicorn isolato | ✅ attivo |
+| PostgreSQL 17 | ✅ attivo |
+| Valkey + Celery worker e beat | ✅ attivo |
+| Backup BorgBackup e prova di ripristino mensile | ✅ attivo · ⏳ manca l'archivio **remoto** |
+| Monit e riepilogo quotidiano di sicurezza | ✅ attivo · ⏳ invio email da verificare |
+| Log al massimo 90 giorni | ✅ attivo |
+| Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |
+| Endpoint `/health/` | ⏳ da fare (eduwisp-utils) |
+| Autenticazione a più fattori | ⏳ da fare (eduwisp-users) |
+| Aggiornamento per rilasci della piattaforma | ⏳ da fare |
+| Separazione dei dati di cyberbullismo e Family Control | ⏳ da progettare |
+
+Tutto è installato dal ruolo [`ansible-eduwisp`](https://github.com/EduWISP/ansible-eduwisp), idempotente.
+
 ## Componenti
 
 ```text

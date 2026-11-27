@@ -12,12 +12,13 @@ Piattaforma open source per la gestione dei dispositivi Android di proprietà de
 
 [Leggi la visione](progetto/visione.md){: .btn .btn-primary .mr-2 }
 [Partecipa alla discussione](https://github.com/EduWISP/docs/discussions){: .btn .mr-2 }
+[Prova la demo](https://demo.eduwisp.org){: .btn .mr-2 }
 [English](/docs/en/){: .btn }
 
 ---
 
 {: .warning }
-> **Stato: progettazione.** Questa documentazione descrive una progettazione in corso. Non esiste ancora un prodotto funzionante e non vengono fornite istruzioni di installazione.
+> **Stato: progettazione e primo prototipo.** Il software non è ancora pronto per le scuole. Su [demo.eduwisp.org](https://demo.eduwisp.org) gira un ambiente di prova con **soli dati fittizi** ([ADR-0015](decisioni/0015-ambienti-del-progetto.md)).
 
 ## Cos'è EduWISP
 
