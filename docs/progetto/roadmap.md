@@ -29,7 +29,7 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 ## Installazione del server: ordine dei lavori
 
 1. **Architettura del server**: decisa in [ADR-0016](../decisioni/0016-architettura-del-server.md) e nella pagina [Architettura del server](../architettura/server.md).
-2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio e avvisi, log, firewall, IDS, hardening, aggiornamenti con ripristino automatico ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: archivio remoto dei backup, `/health/`, autenticazione a più fattori.
+2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio e avvisi, log, firewall, IDS, hardening, aggiornamenti con ripristino automatico, endpoint `/health/` ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: archivio remoto dei backup, autenticazione a più fattori.
 3. **ISO di installazione**, per ultima. Requisiti già raccolti:
    - installatore **guidato in stile Proxmox**: disco, rete e indirizzo IP, nome del server, email dell'amministratore, password;
    - **logo EduWISP** nel menu di avvio (BIOS e UEFI) e nell'installatore;

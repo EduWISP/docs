@@ -22,7 +22,7 @@ Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https:/
 | Monit e riepilogo quotidiano di sicurezza | ✅ attivo, email verificate |
 | Log al massimo 90 giorni | ✅ attivo |
 | Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |
-| Endpoint `/health/` | ⏳ da fare (eduwisp-utils) |
+| Endpoint `/health/` (database, migrazioni, coda; usato da Monit e dagli aggiornamenti) | ✅ attivo dal rilascio 0.2.0 |
 | Autenticazione a più fattori | ⏳ da fare (eduwisp-users) |
 | Aggiornamento per rilasci della piattaforma | ✅ attivo, con ripristino automatico provato |
 | Separazione dei dati di cyberbullismo e Family Control | ⏳ da progettare |
