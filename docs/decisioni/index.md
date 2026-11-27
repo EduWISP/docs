@@ -28,7 +28,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0016](0016-architettura-del-server.md) | Architettura del server: componenti, dati separati, backup, aggiornamenti, monitoraggio | Accettata |
 | [0017](0017-server-di-backup.md) | Server di backup dedicato su Debian stable: Borg in sola aggiunta, cifratura sul client, ruolo Ansible e poi ISO | Accettata |
 | [0018](0018-interfaccia-per-ruoli.md) | Interfaccia divisa per ruoli: amministratore di sistema con tutti gli istituti e le impostazioni, dirigente, docente, famiglia; permessi controllati sul server, famiglia con un referente e un secondo facoltativo, selettore di vista in sola lettura; studenti maggiorenni: accesso dei familiari solo con il loro consenso dal tablet | Accettata |
-| [0019](0019-app-consentite.md) | App consentite: elenco per istituto, indirizzo e classe, sblocco temporaneo del docente registrato, app non consentite sospese, nessun inventario inviato al server | Accettata |
+| [0019](0019-app-consentite.md) | App consentite: catalogo della piattaforma e dell'istituto, app vietate ovunque (social, VPN, Tor), app obbligatorie scelte dall'istituto, sblocco temporaneo del docente registrato, VPN e DNS privato bloccati | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 
