@@ -15,11 +15,11 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 3 | School-family model | Agreed (ADR-0002) |
 | 4 | Cyberbullying & Digital Wellbeing requirements | To be detailed |
 | 5 | Logical architecture and domains | Proposed |
-| 6 | Formal assessment of Android capabilities | Docs checked, device tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
+| 6 | Formal assessment of Android capabilities | Docs checked; [prototype DPC](https://github.com/EduWISP/eduwisp-android-dpc/pull/4) tested on the emulator, tablet tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
 | 7 | Security, privacy and DPIA | To be detailed |
 | 8 | Governance and licence choice | Decided (ADR-0006, ADR-0012) |
-| 9 | Technical specifications | Not started |
-| 10 | Development | Not started |
+| 9 | Technical specifications | Started: [protocol v0](https://github.com/EduWISP/eduwisp-protocol) |
+| 10 | Development | Prototype v0: server, core modules, Android DPC, fictitious data only |
 
 ## Environments
 
@@ -28,8 +28,8 @@ The roadmap describes design phases; it does not state dates or release commitme
 
 ## Server installation: order of work
 
-1. **Server architecture** (ADR to be written): components, flows, data, backup, updates, monitoring, sizing.
-2. **`ansible-eduwisp` role** completed accordingly.
+1. **Server architecture**: decided in [ADR-0016](/docs/decisioni/0016-architettura-del-server/) (Italian) and summarised in [Server architecture](../architecture/server.md).
+2. **`ansible-eduwisp` role** completed accordingly. Done: application, database, web, Valkey and Celery, backups, monitoring and email alerts, logs, firewall, IDS, hardening. To do: remote backup archive, `/health/`, MFA, upgrades.
 3. **Installation ISO**, last: Proxmox-style guided installer (disk, network/IP, hostname, admin email, password), EduWISP logo, based on the official signature-verified **Debian stable** installer, **rebuilt automatically** by a scheduled GitHub Action whenever a new Debian stable release is published, with a first-boot wizard running the Ansible role.
 
 ## Planned for later phases

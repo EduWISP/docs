@@ -15,11 +15,11 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 | 3 | Modello scuola-famiglia | Concordato ([ADR-0002](../decisioni/0002-modello-scuola-famiglia.md)) |
 | 4 | Requisiti Cyberbullying & Digital Wellbeing | Da approfondire |
 | 5 | Architettura logica e domini | Proposta |
-| 6 | Verifica formale delle possibilità Android | Documentazione verificata, test su dispositivi da fare ([matrice](../moduli/android-matrice-compatibilita.md)) |
+| 6 | Verifica formale delle possibilità Android | Documentazione verificata; [DPC prototipo](https://github.com/EduWISP/eduwisp-android-dpc/pull/4) provato sull'emulatore, test sul tablet da fare ([matrice](../moduli/android-matrice-compatibilita.md)) |
 | 7 | Sicurezza, privacy e valutazione DPIA | Da approfondire |
 | 8 | Governance e scelta licenza | Decise ([ADR-0006](../decisioni/0006-licenza.md), [ADR-0012](../decisioni/0012-responsabile-del-progetto.md)) |
-| 9 | Specifiche tecniche | Non iniziata |
-| 10 | Sviluppo | Non iniziato |
+| 9 | Specifiche tecniche | Iniziata: [protocollo v0](https://github.com/EduWISP/eduwisp-protocol) |
+| 10 | Sviluppo | Prototipo v0: server, moduli di base, DPC Android, solo con dati fittizi |
 
 ## Ambienti
 
@@ -29,7 +29,7 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 ## Installazione del server: ordine dei lavori
 
 1. **Architettura del server**: decisa in [ADR-0016](../decisioni/0016-architettura-del-server.md) e nella pagina [Architettura del server](../architettura/server.md).
-2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio, log, firewall, IDS, hardening ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: archivio remoto dei backup, invio email, `/health/`, autenticazione a più fattori, aggiornamenti.
+2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio, log, firewall, IDS, hardening ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: archivio remoto dei backup, `/health/`, autenticazione a più fattori, aggiornamenti.
 3. **ISO di installazione**, per ultima. Requisiti già raccolti:
    - installatore **guidato in stile Proxmox**: disco, rete e indirizzo IP, nome del server, email dell'amministratore, password;
    - **logo EduWISP** nel menu di avvio (BIOS e UEFI) e nell'installatore;
