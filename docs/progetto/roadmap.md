@@ -28,7 +28,7 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 
 ## Installazione del server: ordine dei lavori
 
-1. **Architettura del server** (ADR da scrivere): componenti, flussi, dati, backup, aggiornamenti, monitoraggio, dimensionamento.
+1. **Architettura del server**: proposta in [ADR-0016](../decisioni/0016-architettura-del-server.md) e nella pagina [Architettura del server](../architettura/server.md).
 2. **Ruolo `ansible-eduwisp`** completato di conseguenza (oggi: applicazione, database, web, firewall, IDS, hardening).
 3. **ISO di installazione**, per ultima. Requisiti già raccolti:
    - installatore **guidato in stile Proxmox**: disco, rete e indirizzo IP, nome del server, email dell'amministratore, password;

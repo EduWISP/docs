@@ -20,6 +20,10 @@ Un'organizzazione o un fornitore ospita il servizio su infrastruttura cloud. Dev
 ### Self-hosted
 Un istituto, una rete di scuole o un soggetto incaricato gestisce autonomamente l'infrastruttura. La documentazione futura dovrà descrivere dimensionamento, aggiornamenti, backup, monitoraggio e ripristino.
 
+## Architettura del server
+
+Componenti, backup, aggiornamenti, monitoraggio e dimensionamento sono descritti in [Architettura del server](server.md) ([ADR-0016](../decisioni/0016-architettura-del-server.md)).
+
 ## Scelte non ancora definite
 
 - runtime e framework;
