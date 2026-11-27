@@ -24,6 +24,7 @@ Every module has its own repository, so that someone can take ownership of it in
 | `eduwisp-apps` | App catalogue (signed APKs), assignments, managed configurations | — |
 | `eduwisp-family` | Family Control | — |
 | `eduwisp-wellbeing` | Cyberbullying case management and digital wellbeing | — |
+| `eduwisp-portal` | Role-based web interface: head teacher, teacher, family, platform admin area and read-only "view as" (ADR-0018) | — |
 | `eduwisp-protocol` | Open, versioned server-agent protocol spec, schemas, conformance tests | `netjsonconfig` / NetJSON |
 | `eduwisp-android-dpc` | Open-source EduWISP DPC (*device owner*), first agent | `openwisp-config` |
 | `eduwisp-desktop-agent` | Windows/macOS/Linux agent for Family Control (to be created, ADR-0014) | — |

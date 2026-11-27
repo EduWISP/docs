@@ -23,6 +23,7 @@ Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https:/
 | Log al massimo 90 giorni | ✅ attivo |
 | Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |
 | Endpoint `/health/` (database, migrazioni, coda; usato da Monit e dagli aggiornamenti) | ✅ attivo dal rilascio 0.2.0 |
+| Interfaccia per ruoli (dirigente, docente, famiglia) e «vedi come» in sola lettura, registrato | ✅ attivo dal rilascio 0.3.0 ([ADR-0018](../decisioni/0018-interfaccia-per-ruoli.md)) |
 | Autenticazione a più fattori | ⏳ da fare (eduwisp-users) |
 | Aggiornamento per rilasci della piattaforma | ✅ attivo, con ripristino automatico provato |
 | Separazione dei dati di cyberbullismo e Family Control | ⏳ da progettare |

@@ -27,7 +27,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0015](0015-ambienti-del-progetto.md) | Ambienti: server.eduwisp.org, demo con dati fittizi, pilota solo dopo i requisiti legali | Accettata |
 | [0016](0016-architettura-del-server.md) | Architettura del server: componenti, dati separati, backup, aggiornamenti, monitoraggio | Accettata |
 | [0017](0017-server-di-backup.md) | Server di backup dedicato su Debian stable: Borg in sola aggiunta, cifratura sul client, ruolo Ansible e poi ISO | Accettata |
-| [0018](0018-interfaccia-per-ruoli.md) | Interfaccia divisa per ruoli: amministratore di sistema con tutti gli istituti e le impostazioni, dirigente, docente, famiglia; permessi controllati sul server, famiglia con un referente e un secondo facoltativo, selettore di vista in sola lettura | Proposta |
+| [0018](0018-interfaccia-per-ruoli.md) | Interfaccia divisa per ruoli: amministratore di sistema con tutti gli istituti e le impostazioni, dirigente, docente, famiglia; permessi controllati sul server, famiglia con un referente e un secondo facoltativo, selettore di vista in sola lettura | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

@@ -6,7 +6,7 @@ nav_order: 18
 
 # ADR-0018: Interfaccia per ruoli e accesso delle famiglie
 
-- **Stato:** Proposta (punti 1–5 decisi; punto 6 in attesa di conferma)
+- **Stato:** Accettata
 - **Data:** 2026-11-27
 
 ## Contesto
@@ -52,7 +52,7 @@ Per le famiglie bisogna tenere conto che:
 
 5. **Studenti maggiorenni:** il comportamento predefinito (accesso delle famiglie mantenuto, sospeso o soggetto al consenso dello studente) va definito con il DPO prima del pilota. Fino ad allora il sistema non fa ipotesi e lascia la scelta all'istituto.
 
-6. **Selettore di vista per l'amministratore** («vedi come»), *proposta in attesa di conferma*:
+6. **Selettore di vista per l'amministratore** («vedi come»):
    - un menu a tendina permette all'amministratore di vedere l'interfaccia **come** il dirigente, un docente o una famiglia;
    - **sola lettura**: nessuna azione è possibile mentre è attivo;
    - un **avviso sempre visibile** in alto indica il ruolo e la persona simulati, con il pulsante per uscire;
@@ -68,7 +68,9 @@ Per le famiglie bisogna tenere conto che:
 ## Conseguenze
 
 - `eduwisp-users`: nuovo ruolo `guardian` («genitore o tutore»); l'amministratore di sistema è un account di piattaforma, senza appartenenza a un istituto.
-- Interfaccia: un'area «Amministrazione della piattaforma» separata, per istituti e impostazioni.
+- Nuovo repository **`eduwisp-portal`** per l'interfaccia per ruoli: pagine di dirigente, docente e famiglia, area «Amministrazione della piattaforma» e «vedi come».
+- `eduwisp-audit` riceve il primo codice: registro in sola aggiunta, usato dal «vedi come» e dagli accessi fuori ambito.
+- Il «vedi come» è attivo anche nell'ambiente demo, dove l'amministratore può vedere la piattaforma come dirigente, docente o famiglia del liceo di esempio.
 - `eduwisp-school`: modello del collegamento famiglia-studente (tipo di relazione, referente, attivo) e interrogazione `students_for_guardian`, con il limite di due collegamenti attivi e un solo referente per studente.
 - Dati della demo: famiglie inventate, con casi di uno e due genitori, tutori e fratelli.
 - Il Family Control ([ADR-0014](0014-family-control-facoltativo-multipiattaforma.md)) userà lo stesso collegamento; chi tra i due può attivarlo va definito nel modulo.
