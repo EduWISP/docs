@@ -15,7 +15,7 @@ The roadmap describes design phases; it does not state dates or release commitme
 | 3 | School-family model | Agreed (ADR-0002) |
 | 4 | Cyberbullying & Digital Wellbeing requirements | To be detailed |
 | 5 | Logical architecture and domains | Proposed |
-| 6 | Formal assessment of Android capabilities | Docs checked; [prototype DPC](https://github.com/EduWISP/eduwisp-android-dpc/pull/4) tested on the emulator, tablet tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
+| 6 | Formal assessment of Android capabilities | Docs checked; [prototype DPC](https://github.com/EduWISP/eduwisp-android-dpc) tested on the emulator, tablet tests pending ([matrix](../modules/android-compatibility-matrix.md)) |
 | 7 | Security, privacy and DPIA | To be detailed |
 | 8 | Governance and licence choice | Decided (ADR-0006, ADR-0012) |
 | 9 | Technical specifications | Started: [protocol v0](https://github.com/EduWISP/eduwisp-protocol) |

@@ -15,7 +15,7 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 | 3 | Modello scuola-famiglia | Concordato ([ADR-0002](../decisioni/0002-modello-scuola-famiglia.md)) |
 | 4 | Requisiti Cyberbullying & Digital Wellbeing | Da approfondire |
 | 5 | Architettura logica e domini | Proposta |
-| 6 | Verifica formale delle possibilità Android | Documentazione verificata; [DPC prototipo](https://github.com/EduWISP/eduwisp-android-dpc/pull/4) provato sull'emulatore, test sul tablet da fare ([matrice](../moduli/android-matrice-compatibilita.md)) |
+| 6 | Verifica formale delle possibilità Android | Documentazione verificata; [DPC prototipo](https://github.com/EduWISP/eduwisp-android-dpc) provato sull'emulatore, test sul tablet da fare ([matrice](../moduli/android-matrice-compatibilita.md)) |
 | 7 | Sicurezza, privacy e valutazione DPIA | Da approfondire |
 | 8 | Governance e scelta licenza | Decise ([ADR-0006](../decisioni/0006-licenza.md), [ADR-0012](../decisioni/0012-responsabile-del-progetto.md)) |
 | 9 | Specifiche tecniche | Iniziata: [protocollo v0](https://github.com/EduWISP/eduwisp-protocol) |
