@@ -19,7 +19,7 @@ Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https:/
 | PostgreSQL 17 | ✅ attivo |
 | Valkey + Celery worker e beat | ✅ attivo |
 | Backup BorgBackup e prova di ripristino mensile | ✅ attivo · ⏳ manca l'archivio **remoto** |
-| Monit e riepilogo quotidiano di sicurezza | ✅ attivo · ⏳ invio email da verificare |
+| Monit e riepilogo quotidiano di sicurezza | ✅ attivo, email verificate |
 | Log al massimo 90 giorni | ✅ attivo |
 | Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |
 | Endpoint `/health/` | ⏳ da fare (eduwisp-utils) |
