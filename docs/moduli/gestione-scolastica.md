@@ -61,6 +61,8 @@ Un docente insegna in **più classi**, spesso di sezioni e anni diversi; ogni cl
 
 I ruoli sono una proposta: le deleghe effettive devono rispettare l'organizzazione scolastica e la normativa applicabile.
 
+Interfaccia divisa per ruoli e accesso delle famiglie (un referente obbligatorio, un secondo facoltativo): [ADR-0018](../decisioni/0018-interfaccia-per-ruoli.md).
+
 ## Modalità didattiche
 
 Sono da valutare profili per lezione, laboratorio, verifica e attività extrascolastica. Le modalità temporanee devono avere durata, soggetto attivatore, ambito, motivazione e comportamento in caso di perdita di connettività definiti.

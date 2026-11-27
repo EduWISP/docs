@@ -31,6 +31,7 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 | `eduwisp-apps` | Catalogo app (APK firmati), assegnazioni, configurazioni gestite | [Gestione Android](../moduli/android.md) |
 | `eduwisp-family` | Family Control: deleghe e regole familiari | [Family Control](../moduli/family-control.md) |
 | `eduwisp-wellbeing` | Segnalazioni e gestione dei casi di cyberbullismo, benessere digitale | [Cyberbullismo](../moduli/cyberbullismo.md) |
+| `eduwisp-portal` | Interfaccia per ruoli: dirigente, docente, famiglia, area dell'amministratore e «vedi come» in sola lettura | [ADR-0018](../decisioni/0018-interfaccia-per-ruoli.md) |
 
 ### Dispositivo e protocollo
 
@@ -70,6 +71,7 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 | `eduwisp-policy` | utils, users, audit, school, devices, apps |
 | `eduwisp-family` | utils, users, audit, school, policy |
 | `eduwisp-wellbeing` | utils, users, audit, school |
+| `eduwisp-portal` | users, audit, school, devices |
 | `eduwisp-protocol` | — (specifica indipendente) |
 | `eduwisp-android-dpc` | protocol |
 
