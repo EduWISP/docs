@@ -7,7 +7,7 @@ nav_order: 18
 # ADR-0018: Interfaccia per ruoli e accesso delle famiglie
 
 - **Stato:** Accettata
-- **Data:** 2026-11-27
+- **Data:** 2026-11-27 (punto 5 aggiornato lo stesso giorno)
 
 ## Contesto
 
@@ -50,7 +50,13 @@ Per le famiglie bisogna tenere conto che:
    - Lo stesso account vale per **tutti i figli** nell'istituto.
    - L'accesso termina quando lo studente lascia l'istituto.
 
-5. **Studenti maggiorenni:** il comportamento predefinito (accesso delle famiglie mantenuto, sospeso o soggetto al consenso dello studente) va definito con il DPO prima del pilota. Fino ad allora il sistema non fa ipotesi e lascia la scelta all'istituto.
+5. **Studenti maggiorenni:** con la maggiore età la responsabilità genitoriale cessa (art. 2 c.c.) e lo studente decide da sé sui propri dati.
+   - **Per impostazione predefinita i familiari perdono l'accesso** dal giorno in cui lo studente diventa maggiorenne.
+   - Lo studente può **decidere dal proprio tablet** se lasciare l'accesso ai familiari, e cambiare idea in qualsiasi momento. Finché non sceglie, l'accesso resta chiuso.
+   - La scelta si conferma con il **blocco schermo del tablet** (PIN, sequenza o impronta), così non la può fare un'altra persona che ha il tablet in mano.
+   - La scelta vale per tutti i familiari collegati ed è **registrata** nel registro delle operazioni.
+   - La scuola registra solo la **data della maggiore età**, non la data di nascita.
+   - Ai familiari senza accesso il portale mostra solo che lo studente è maggiorenne e che i dati sono visibili con il suo consenso.
 
 6. **Selettore di vista per l'amministratore** («vedi come»):
    - un menu a tendina permette all'amministratore di vedere l'interfaccia **come** il dirigente, un docente o una famiglia;
@@ -70,6 +76,7 @@ Per le famiglie bisogna tenere conto che:
 - `eduwisp-users`: nuovo ruolo `guardian` («genitore o tutore»); l'amministratore di sistema è un account di piattaforma, senza appartenenza a un istituto.
 - Nuovo repository **`eduwisp-portal`** per l'interfaccia per ruoli: pagine di dirigente, docente e famiglia, area «Amministrazione della piattaforma» e «vedi come».
 - `eduwisp-audit` riceve il primo codice: registro in sola aggiunta, usato dal «vedi come» e dagli accessi fuori ambito.
+- Protocollo v0: la policy indica al tablet se chiedere la scelta allo studente; il rapporto di stato riporta la scelta (campi facoltativi, compatibili con gli agenti esistenti).
 - Il «vedi come» è attivo anche nell'ambiente demo, dove l'amministratore può vedere la piattaforma come dirigente, docente o famiglia del liceo di esempio.
 - `eduwisp-school`: modello del collegamento famiglia-studente (tipo di relazione, referente, attivo) e interrogazione `students_for_guardian`, con il limite di due collegamenti attivi e un solo referente per studente.
 - Dati della demo: famiglie inventate, con casi di uno e due genitori, tutori e fratelli.
