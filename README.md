@@ -1,9 +1,9 @@
 # EduWISP — Documentazione
 
 🇮🇹 Documentazione di progetto di **EduWISP**, piattaforma open source per la gestione dei dispositivi Android di proprietà delle scuole.
-🇬🇧 *Design documentation for **EduWISP**, an open-source platform for managing school-owned Android devices. English version: <https://eduwisp.github.io/docs/en/>.*
+🇬🇧 *Design documentation for **EduWISP**, an open-source platform for managing school-owned Android devices. English version: <https://eduwisp.org/docs/en/>.*
 
-📖 **Sito:** <https://eduwisp.github.io/docs/>
+📖 **Sito:** <https://eduwisp.org/docs/>
 
 > **Stato: progettazione.** Questo repository contiene solo documentazione e specifiche concettuali: nessun server MDM, nessuna app Android, nessuna procedura di installazione.
 

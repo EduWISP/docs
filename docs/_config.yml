@@ -3,7 +3,7 @@ description: Piattaforma open source per la gestione dei dispositivi Android sco
 lang: it
 logo: "/assets/images/eduwisp-logo.svg"
 favicon_ico: "/favicon.ico"
-url: "https://eduwisp.github.io"
+url: "https://eduwisp.org"
 baseurl: "/docs"
 permalink: pretty
 
