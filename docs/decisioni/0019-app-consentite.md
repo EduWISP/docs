@@ -11,7 +11,7 @@ nav_order: 19
 
 ## Contesto
 
-I tablet della scuola sono usati da minori. La scuola deve decidere quali app si possono usare, in modo semplice per chi amministra e trasparente per chi usa il tablet. Il catalogo di APK firmati previsto da RF-016 richiede più lavoro; nel frattempo serve un controllo sulle app già presenti e su quelle che arrivano da uno store.
+I tablet della scuola sono usati da minori. La scuola deve decidere quali app si possono usare, in modo semplice per chi amministra e trasparente per chi usa il tablet. Il catalogo di APK firmati previsto da RF-016 richiede più lavoro, e alcune app vanno vietate in ogni caso per la tutela dei minori (social, VPN, Tor); nel frattempo serve un controllo sulle app già presenti e su quelle che arrivano da uno store.
 
 ## Decisione
 
@@ -20,11 +20,16 @@ I tablet della scuola sono usati da minori. La scuola deve decidere quali app si
    - **istituto**: base valida per tutti i tablet;
    - **indirizzo** e **classe**: app aggiuntive;
    - **sblocco temporaneo del docente**: durante la lezione un docente può sbloccare un'app del catalogo dell'istituto per **una delle sue classi**, per una durata limitata (al massimo 4 ore). Lo sblocco ha una scadenza scritta nella policy: il tablet richiude l'app da solo anche senza rete. Ogni sblocco è registrato.
-3. **Catalogo dell'istituto**: le app che la scuola conosce (nome e identificativo del pacchetto). Solo le app del catalogo si possono consentire o sbloccare.
-4. **App protette**: il tablet non sospende mai il DPC EduWISP, la schermata Home, le tastiere attive e i componenti di sistema senza icona, per non rendere il dispositivo inutilizzabile. L'agente le segnala se compaiono tra quelle da bloccare.
-5. **Installazioni da fonti sconosciute vietate** quando l'elenco è attivo.
-6. **Protocollo v0**: la policy contiene `apps` con la modalità e l'elenco degli identificativi consentiti, ciascuno con un'eventuale scadenza. Gli identificativi dipendono dalla piattaforma (per Android il nome del pacchetto). L'agente dichiara la capacità `apps:allowlist`.
-7. **Nessun inventario delle app installate** inviato al server nella v0: la scuola non vede quali app ci sono sul tablet, solo se la policy è applicata (minimizzazione).
+3. **Cataloghi**:
+   - **catalogo della piattaforma**, deciso solo dall'amministratore di sistema: app **consentite in tutti gli istituti** (istruzione, ufficio e comunicazione, per esempio Google Classroom, Microsoft Teams, MyLIM, Booktab, didUP di Argo, GeoGebra, WhatsApp) e app **vietate ovunque**;
+   - **catalogo dell'istituto**: le altre app che la scuola conosce (nome e identificativo del pacchetto). Solo le app dei cataloghi si possono consentire o sbloccare.
+4. **App vietate** (categorie social, incontri, VPN, Tor, browser con VPN integrata): sempre sospese, anche negli istituti che non usano l'elenco di app consentite (modalità `blocklist`); nessun istituto né docente le può consentire o sbloccare.
+5. **App obbligatorie**, scelte da ogni istituto (per tutti, per indirizzo o per classe), tra quelle consentite: il tablet le mostra allo studente con il nome e il collegamento allo store finché non sono installate, e la scuola vede che mancano.
+6. **VPN e DNS privato**: per impostazione predefinita non si possono configurare (`vpn_config_disabled`, `private_dns_config_disabled`), così nessuna app VPN può attivarsi e non si aggirano i filtri.
+7. **App protette**: il tablet non sospende mai il DPC EduWISP, la schermata Home, le tastiere attive e i componenti di sistema senza icona, per non rendere il dispositivo inutilizzabile. L'agente le segnala se compaiono tra quelle da bloccare.
+8. **Installazioni da fonti sconosciute vietate** in entrambe le modalità.
+9. **Protocollo v0**: la policy contiene `apps` con la modalità, gli identificativi consentiti (con eventuale scadenza, obbligatorietà e nome) e quelli vietati. Gli identificativi dipendono dalla piattaforma (per Android il nome del pacchetto). L'agente dichiara la capacità `apps:allowlist`.
+10. **Nessun inventario delle app installate** inviato al server nella v0: la scuola non vede quali app ci sono sul tablet, solo se la policy è applicata (minimizzazione).
 
 ## Alternative considerate
 
