@@ -17,7 +17,7 @@ Open-source platform for managing school-owned Android devices.
 ---
 
 {: .warning }
-> **Status: design phase.** This documentation describes ongoing design work. There is no working product yet and no installation instructions.
+> **Status: design and first prototype.** The software is not ready for schools yet. A test environment with **fictitious data only** runs at [demo.eduwisp.org](https://demo.eduwisp.org): sign in with user **`demo`** and password **`demo`** (read-only; you can also view the interface as a head teacher, teacher or family).
 
 {: .note }
 > Italian is the project's default language and the **authoritative version**. If the two versions differ, the Italian one prevails.

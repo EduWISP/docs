@@ -18,7 +18,7 @@ Piattaforma open source per la gestione dei dispositivi Android di proprietà de
 ---
 
 {: .warning }
-> **Stato: progettazione e primo prototipo.** Il software non è ancora pronto per le scuole. Su [demo.eduwisp.org](https://demo.eduwisp.org) gira un ambiente di prova con **soli dati fittizi** ([ADR-0015](decisioni/0015-ambienti-del-progetto.md)).
+> **Stato: progettazione e primo prototipo.** Il software non è ancora pronto per le scuole. Su [demo.eduwisp.org](https://demo.eduwisp.org) gira un ambiente di prova con **soli dati fittizi** ([ADR-0015](decisioni/0015-ambienti-del-progetto.md)). Accedi con utente **`demo`** e password **`demo`**: l'account è in sola lettura e permette di vedere l'interfaccia anche come dirigente, docente o famiglia.
 
 ## Cos'è EduWISP
 
