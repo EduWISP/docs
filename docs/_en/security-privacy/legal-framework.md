@@ -37,6 +37,20 @@ EduWISP processes data of **minors** in a **school** context, often on behalf of
 | **Law 71/2017** on cyberbullying, amended by **Law 70/2024** | School contact person, family information duties, reporting procedures. |
 | **Ministry of Education guidelines** on bullying and cyberbullying | Operational guidance for schools. |
 
+## Age of minors
+
+Each student's age is computed from their **date of birth**, never from their class: a student who repeated a year can be older than their classmates. *Checked on 28 November 2026.*
+
+| Age | Law | What it means for EduWISP |
+|---|---|---|
+| **14** | Art. 2-quinquies of the Italian Privacy Code (Legislative Decree 101/2018), derogating from GDPR art. 8 | From 14 a minor can consent to information society services; under 14 the holder of parental responsibility consents. Notices for minors must be clear and age-appropriate. |
+| **14** | Law 132/2025 on artificial intelligence, art. 4(4) (in force since 10 October 2025) | Under 14, access to AI systems requires parental consent; from 14 the minor can consent if the information is understandable. |
+| **14** | Law 71/2017 on cyberbullying | A minor aged 14 or over can request takedown of content directly. |
+| **16** | GDPR art. 8 | Default digital consent age where a Member State has not lowered it (minimum 13). Italy uses 14; installations in other countries can configure it (`EDUWISP_DIGITAL_CONSENT_AGE`). |
+| **18** | Italian Civil Code, art. 2 | Parental responsibility ends: in EduWISP family members lose access unless the student consents on the tablet (ADR-0018). |
+
+**Proposals not yet law** (to follow): amendments and bills on minors' access to social media (ban under 13, account linked to a parent's until 15 or 16). They do not change EduWISP, where social media apps are already blocked on student tablets (ADR-0019), but must be checked if passed.
+
 ## Artificial intelligence
 
 | Law | Impact on EduWISP |

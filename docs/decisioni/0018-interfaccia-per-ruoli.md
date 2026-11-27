@@ -55,7 +55,7 @@ Per le famiglie bisogna tenere conto che:
    - Lo studente può **decidere dal proprio tablet** se lasciare l'accesso ai familiari, e cambiare idea in qualsiasi momento. Finché non sceglie, l'accesso resta chiuso.
    - La scelta si conferma con il **blocco schermo del tablet** (PIN, sequenza o impronta), così non la può fare un'altra persona che ha il tablet in mano.
    - La scelta vale per tutti i familiari collegati ed è **registrata** nel registro delle operazioni.
-   - La scuola registra solo la **data della maggiore età**, non la data di nascita.
+   - La scuola registra la **data di nascita** dello studente: l'età è di ciascuno, non della classe (chi ripete l'anno può essere più grande dei compagni). Se ne ricavano solo le soglie di legge, 18 anni e 14 anni del consenso digitale (vedi il [quadro normativo](../sicurezza-privacy/quadro-normativo.md#età-dei-minori)). *Modifica del 28 novembre 2026: prima si registrava solo la data della maggiore età, che contiene la stessa informazione ma non permette la soglia dei 14 anni.*
    - Ai familiari senza accesso il portale mostra solo che lo studente è maggiorenne e che i dati sono visibili con il suo consenso.
 
 6. **Selettore di vista per l'amministratore** («vedi come»):
