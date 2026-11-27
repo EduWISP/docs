@@ -71,3 +71,7 @@ No AI feature is in the initial scope.
 6. **Transparency towards the child**, in age-appropriate language.
 7. **Data in the EU**, third-party flows mapped.
 8. **Support for school obligations**: records, notices, DPIA, processor agreement templates.
+
+## Italian Data Protection Authority guidance for schools
+
+From the Garante's [FAQ "Scuola e privacy"](https://www.gpdp.it/home/faq/scuola-e-privacy) and the 2023 handbook ["La scuola a prova di privacy"](https://www.gpdp.it/scuola): health, disability and learning-disorder (DSA) data are known only to entitled people and never disclosed; students with DSA may use the tools in their personal learning plan (recorders, computers) even where recording is otherwise banned; general communications must not identify pupils (disability, health, bullying, sanctions); schools are controllers and must provide a privacy notice. For EduWISP: per-student app exceptions without any stated reason, notifications only to the people concerned, no surveillance through device cameras, microphones or screens, and a privacy-notice template.
