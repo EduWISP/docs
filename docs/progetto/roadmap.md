@@ -26,6 +26,17 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 - **Ora:** `demo.eduwisp.org` su `server.eduwisp.org`, solo con dati fittizi.
 - **Dopo i requisiti legali:** `pilota.eduwisp.org` con scuole aderenti ([ADR-0015](../decisioni/0015-ambienti-del-progetto.md)).
 
+## Installazione del server: ordine dei lavori
+
+1. **Architettura del server** (ADR da scrivere): componenti, flussi, dati, backup, aggiornamenti, monitoraggio, dimensionamento.
+2. **Ruolo `ansible-eduwisp`** completato di conseguenza (oggi: applicazione, database, web, firewall, IDS, hardening).
+3. **ISO di installazione**, per ultima. Requisiti già raccolti:
+   - installatore **guidato in stile Proxmox**: disco, rete e indirizzo IP, nome del server, email dell'amministratore, password;
+   - **logo EduWISP** nel menu di avvio (BIOS e UEFI) e nell'installatore;
+   - basata sull'installatore ufficiale di **Debian stable**, verificato con firma GPG;
+   - **aggiornata automaticamente**: una GitHub Action controlla ogni giorno se esce una nuova versione di Debian stable e ricostruisce e pubblica la ISO;
+   - al primo avvio una procedura guidata configura EduWISP con il ruolo Ansible.
+
 ## In programma per le fasi successive
 
 - **Family Control su dispositivi Apple** (macOS, iPhone, iPad): richiede l'autorizzazione *Family Controls* di Apple e l'Apple Developer Program ([ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)).

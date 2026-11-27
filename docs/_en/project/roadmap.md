@@ -26,6 +26,12 @@ The roadmap describes design phases; it does not state dates or release commitme
 - **Now:** `demo.eduwisp.org` on `server.eduwisp.org`, fictitious data only.
 - **After legal requirements:** `pilota.eduwisp.org` with participating schools (ADR-0015).
 
+## Server installation: order of work
+
+1. **Server architecture** (ADR to be written): components, flows, data, backup, updates, monitoring, sizing.
+2. **`ansible-eduwisp` role** completed accordingly.
+3. **Installation ISO**, last: Proxmox-style guided installer (disk, network/IP, hostname, admin email, password), EduWISP logo, based on the official signature-verified **Debian stable** installer, **rebuilt automatically** by a scheduled GitHub Action whenever a new Debian stable release is published, with a first-boot wizard running the Ansible role.
+
 ## Planned for later phases
 
 - **Family Control on Apple devices** (macOS, iPhone, iPad), requiring Apple's Family Controls entitlement and the Apple Developer Program (ADR-0014).
