@@ -47,6 +47,7 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 | Repository | Contenuto | Equivalente OpenWISP |
 |---|---|---|
 | `ansible-eduwisp` | Installazione e aggiornamento su Debian 13 | `ansible-openwisp2` |
+| `ansible-eduwisp-backup` | Server di backup dedicato: BorgBackup in sola aggiunta su Debian stable ([ADR-0017](../decisioni/0017-server-di-backup.md)) | — |
 | `docker-eduwisp` | Immagini e composizione container | `docker-openwisp` |
 
 ### Progetto

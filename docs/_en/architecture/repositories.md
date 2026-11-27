@@ -30,6 +30,7 @@ Every module has its own repository, so that someone can take ownership of it in
 | `eduwisp-family-android` | Family Control app for personal Android devices, no device owner (to be created) | — |
 | `eduwisp-<platform>-agent` | Agents for other platforms, in the future (ADR-0011) | `openwrt-openwisp-monitoring` |
 | `ansible-eduwisp` | Install and upgrade on Debian 13 | `ansible-openwisp2` |
+| `ansible-eduwisp-backup` | Dedicated backup server: append-only BorgBackup on Debian stable (ADR-0017) | — |
 | `docker-eduwisp` | Container images and composition | `docker-openwisp` |
 | `.github` | Profile, community files, templates, reusable workflows | `.github` |
 | `docs` | Design, ADRs, site aggregating all module docs | `openwisp-docs` |

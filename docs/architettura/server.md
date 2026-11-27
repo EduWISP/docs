@@ -18,7 +18,7 @@ Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https:/
 | Django + gunicorn isolato | ✅ attivo |
 | PostgreSQL 17 | ✅ attivo |
 | Valkey + Celery worker e beat | ✅ attivo |
-| Backup BorgBackup e prova di ripristino mensile | ✅ attivo · ⏳ manca l'archivio **remoto** |
+| Backup BorgBackup e prova di ripristino mensile | ✅ attivo, su `backup.eduwisp.org` in sola aggiunta ([ADR-0017](../decisioni/0017-server-di-backup.md)) |
 | Monit e riepilogo quotidiano di sicurezza | ✅ attivo, email verificate |
 | Log al massimo 90 giorni | ✅ attivo |
 | Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |

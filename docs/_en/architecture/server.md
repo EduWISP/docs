@@ -8,7 +8,7 @@ nav_order: 5
 
 Decided in ADR-0016; the [Italian page](/docs/architettura/server/) is authoritative.
 
-**Status (27 Nov 2026, `server.eduwisp.org`, demo with fictitious data):** nginx/TLS with rate limiting, Django/gunicorn, PostgreSQL, Valkey + Celery, BorgBackup with monthly restore test (remote archive pending), Monit and daily security summary with email alerts, platform-release upgrades with automatic rollback, `/health/` endpoint, 90-day logs, firewall, fail2ban, Suricata, AIDE, auditd and hardening (Lynis 78/100) are **running**. Still to do: MFA, data separation design.
+**Status (27 Nov 2026, `server.eduwisp.org`, demo with fictitious data):** nginx/TLS with rate limiting, Django/gunicorn, PostgreSQL, Valkey + Celery, BorgBackup with monthly restore test, stored append-only on the dedicated `backup.eduwisp.org` (ADR-0017), Monit and daily security summary with email alerts, platform-release upgrades with automatic rollback, `/health/` endpoint, 90-day logs, firewall, fail2ban, Suricata, AIDE, auditd and hardening (Lynis 78/100) are **running**. Still to do: MFA, data separation design.
 
 - **Single Debian 13 VM to start, ready to grow:** nginx (TLS, static files, rate limiting), Django + gunicorn (UI and API, stateless), PostgreSQL 17, Valkey (local-only message broker), Celery worker and beat; each service with its own user and systemd sandboxing.
 - **Data separation:** Family Control in a separate database (possibly another server); cyberbullying data in a separate PostgreSQL schema with a dedicated role and application-level encryption of sensitive fields; disk encryption recommended in production.

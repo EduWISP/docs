@@ -29,13 +29,14 @@ La roadmap è progettuale e non indica date o promesse di rilascio.
 ## Installazione del server: ordine dei lavori
 
 1. **Architettura del server**: decisa in [ADR-0016](../decisioni/0016-architettura-del-server.md) e nella pagina [Architettura del server](../architettura/server.md).
-2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio e avvisi, log, firewall, IDS, hardening, aggiornamenti con ripristino automatico, endpoint `/health/` ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: archivio remoto dei backup, autenticazione a più fattori.
+2. **Ruolo `ansible-eduwisp`** completato di conseguenza. Fatto: applicazione, database, web, Valkey e Celery, backup, monitoraggio e avvisi, log, firewall, IDS, hardening, aggiornamenti con ripristino automatico, endpoint `/health/`, backup remoto sul server di backup dedicato ([stato](../architettura/server.md#stato-dellimplementazione)). Da fare: autenticazione a più fattori.
 3. **ISO di installazione**, per ultima. Requisiti già raccolti:
    - installatore **guidato in stile Proxmox**: disco, rete e indirizzo IP, nome del server, email dell'amministratore, password;
    - **logo EduWISP** nel menu di avvio (BIOS e UEFI) e nell'installatore;
    - basata sull'installatore ufficiale di **Debian stable**, verificato con firma GPG;
    - **aggiornata automaticamente**: una GitHub Action controlla ogni giorno se esce una nuova versione di Debian stable e ricostruisce e pubblica la ISO;
-   - al primo avvio una procedura guidata configura EduWISP con il ruolo Ansible.
+   - al primo avvio una procedura guidata configura EduWISP con il ruolo Ansible;
+   - **due ISO con lo stesso sistema**: server EduWISP e **server di backup** (in stile Proxmox Backup Server, con il ruolo `ansible-eduwisp-backup`, [ADR-0017](../decisioni/0017-server-di-backup.md)).
 
 ## In programma per le fasi successive
 
