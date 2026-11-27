@@ -31,6 +31,7 @@ Le decisioni progettuali rilevanti sono registrate come **Architecture Decision 
 | [0019](0019-app-consentite.md) | App consentite: catalogo della piattaforma e dell'istituto, app vietate ovunque (social, VPN, Tor), app obbligatorie scelte dall'istituto, sblocco temporaneo del docente registrato, VPN e DNS privato bloccati | Accettata |
 | [0020](0020-app-obbligatorie.md) | App obbligatorie con una spunta nell'elenco unico, logo delle app, installazione silenziosa da APK caricati dalla scuola (niente Google Play gestito) | Accettata |
 | [0021](0021-richieste-di-app.md) | Richieste di app dal tablet: parere favorevole motivato della famiglia, decisione motivata di un docente della classe, visibile a coordinatore e dirigente; app consentite per il singolo studente (strumenti del PDP) | Accettata |
+| [0022](0022-app-mobili.md) | App mobili per personale (menu per docente, coordinatore, dirigente), famiglie e studenti: Android nativo prima, API JSON con gli stessi permessi del portale, nessun servizio proprietario | Accettata |
 
 **Stati:** Proposta · Accettata · Respinta · Sostituita da ADR-XXXX
 

@@ -32,6 +32,7 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 | `eduwisp-family` | Family Control: deleghe e regole familiari | [Family Control](../moduli/family-control.md) |
 | `eduwisp-wellbeing` | Segnalazioni e gestione dei casi di cyberbullismo, benessere digitale | [Cyberbullismo](../moduli/cyberbullismo.md) |
 | `eduwisp-portal` | Interfaccia per ruoli: dirigente, docente, famiglia, area dell'amministratore e «vedi come» in sola lettura | [ADR-0018](../decisioni/0018-interfaccia-per-ruoli.md) |
+| `eduwisp-api` | API JSON per le app mobili, con gli stessi permessi del portale | [ADR-0022](../decisioni/0022-app-mobili.md) |
 
 ### Dispositivo e protocollo
 
@@ -39,6 +40,8 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 |---|---|---|
 | `eduwisp-protocol` | Specifica aperta e versionata del protocollo server-agenti, multipiattaforma: messaggi comuni, profili di piattaforma, capacità degli agenti, test di conformità | `netjsonconfig` / NetJSON |
 | `eduwisp-android-dpc` | DPC EduWISP open source (*device owner*), primo agente | `openwisp-config` (agente OpenWrt) |
+| `eduwisp-app-scuola` | App Android per docenti, coordinatori e dirigenti ([ADR-0022](../decisioni/0022-app-mobili.md)) | — |
+| `eduwisp-app-famiglia`, `eduwisp-app-studente` | App per famiglie (poi con il controllo familiare completo) e studenti (da creare) | — |
 | `eduwisp-desktop-agent` | Agente per PC Windows, macOS e Linux, per il Family Control (da creare, [ADR-0014](../decisioni/0014-family-control-facoltativo-multipiattaforma.md)) | — |
 | `eduwisp-family-android` | App Family Control per dispositivi Android personali, senza *device owner* (da creare) | — |
 | `eduwisp-<piattaforma>-agent` | Agenti per altre piattaforme, in futuro ([ADR-0011](../decisioni/0011-multipiattaforma.md)) | `openwrt-openwisp-monitoring` |
@@ -72,6 +75,7 @@ Ogni modulo ha un proprio repository, così che qualcuno possa prenderlo in cari
 | `eduwisp-family` | utils, users, audit, school, policy |
 | `eduwisp-wellbeing` | utils, users, audit, school |
 | `eduwisp-portal` | users, audit, school, devices |
+| `eduwisp-api` | users, audit, school, devices, apps |
 | `eduwisp-protocol` | — (specifica indipendente) |
 | `eduwisp-android-dpc` | protocol |
 
