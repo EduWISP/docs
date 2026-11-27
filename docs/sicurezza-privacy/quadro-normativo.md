@@ -39,6 +39,20 @@ EduWISP tratta dati di **minori** in un contesto **scolastico**, spesso per cont
 | **L. 71/2017** sul cyberbullismo, modificata dalla **L. 70/2024** | Ruolo del **referente scolastico** per il bullismo e il cyberbullismo, obblighi di informazione delle famiglie, procedure di segnalazione. Il modulo [Cyberbullismo](../moduli/cyberbullismo.md) deve supportare queste procedure senza sostituirle. *Da verificare: obblighi introdotti dalla L. 70/2024 e decreti attuativi.* |
 | **Linee di orientamento MIM** per la prevenzione e il contrasto di bullismo e cyberbullismo | Indicazioni operative per le scuole (protocolli, team antibullismo). *Da verificare: versione vigente.* |
 
+## Età dei minori
+
+L'età di ogni studente si calcola dalla **data di nascita**, mai dalla classe: chi ripete un anno può essere più grande dei compagni. *Verifica del 28 novembre 2026.*
+
+| Età | Norma | Cosa comporta per EduWISP |
+|---|---|---|
+| **14 anni** | Art. 2-quinquies del Codice privacy (D.Lgs. 101/2018), in deroga all'art. 8 del GDPR | Da 14 anni il minore può acconsentire da sé ai servizi della società dell'informazione; sotto i 14 serve chi esercita la responsabilità genitoriale. Le informative per i minori devono essere chiare e adatte all'età. |
+| **14 anni** | L. 132/2025 sull'intelligenza artificiale, art. 4 c. 4 (in vigore dal 10 ottobre 2025) | Sotto i 14 anni l'accesso a sistemi di IA richiede il consenso dei genitori; dai 14 anni il minore può acconsentire se le informazioni sono comprensibili. |
+| **14 anni** | L. 71/2017 sul cyberbullismo | Il minore ultraquattordicenne può chiedere da sé l'oscuramento o la rimozione dei contenuti. |
+| **16 anni** | GDPR, art. 8 | Soglia predefinita del consenso digitale negli Stati che non l'hanno abbassata (minimo 13). In Italia vale 14: per installazioni in altri Stati la soglia è configurabile (`EDUWISP_DIGITAL_CONSENT_AGE`). |
+| **18 anni** | Art. 2 c.c. | Con la maggiore età la responsabilità genitoriale cessa: in EduWISP i familiari perdono l'accesso, salvo consenso dello studente dal tablet ([ADR-0018](../decisioni/0018-interfaccia-per-ruoli.md)). |
+
+**Proposte non ancora legge** (da seguire): emendamenti e disegni di legge sull'accesso dei minori ai social (divieto sotto i 13 anni, account collegato a quello dei genitori fino a 15 o 16 anni). Non cambiano EduWISP, dove i social sono già vietati sui tablet degli studenti ([ADR-0019](../decisioni/0019-app-consentite.md)), ma vanno verificati se approvati.
+
 ## Intelligenza artificiale
 
 | Norma | Cosa comporta per EduWISP |
