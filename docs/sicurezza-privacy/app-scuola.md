@@ -6,7 +6,7 @@ nav_order: 5
 
 # Informativa privacy dell'app «EduWISP Scuola»
 
-*Ultimo aggiornamento: 27 novembre 2026.* 🇬🇧 [English](/docs/en/security-privacy/app-school/)
+*Ultimo aggiornamento: 28 novembre 2026.* 🇬🇧 [English](/docs/en/security-privacy/app-school/)
 
 L'app **EduWISP Scuola** (`org.eduwisp.scuola`) è un software libero (licenza AGPL-3.0-or-later) del progetto EduWISP per il personale delle scuole: docenti, coordinatori e dirigenti. Codice sorgente: <https://github.com/EduWISP/eduwisp-app-scuola>.
 
@@ -24,6 +24,7 @@ L'ambiente di prova `demo.eduwisp.org` contiene **solo dati inventati**.
 | Nome utente e password | inviati solo al server dell'istituto, via HTTPS, al momento dell'accesso; **la password non viene salvata** | per accedere |
 | Token di accesso | sul telefono, **cifrato** con il Keystore di Android; sul server solo la sua impronta | per restare collegati (30 giorni, revocabile) |
 | Nome del modello del telefono | inviato al server dell'istituto | per riconoscere il telefono nell'elenco degli accessi |
+| Decisioni e motivazioni scritte dal docente | inviate al server dell'istituto | per decidere sulle richieste di app (restano registrate per coordinatore e dirigente) |
 | Ruolo scelto, numero di richieste in attesa | sul telefono | per il menu e per le notifiche |
 
 L'app **non salva dati degli studenti** sul telefono: li chiede al server ogni volta. Le notifiche indicano solo **quante** richieste di app sono in attesa, senza nomi.
@@ -38,6 +39,16 @@ L'app **non salva dati degli studenti** sul telefono: li chiede al server ogni v
 ## Sicurezza e conservazione
 
 Tutte le comunicazioni usano HTTPS. Uscendo dall'app il token viene **revocato** sul server; disinstallando l'app i dati sul telefono vengono cancellati. Sul server, la conservazione segue le regole dell'istituto ([quadro normativo](quadro-normativo.md)).
+
+## Cancellazione dei dati
+
+L'app **EduWISP Scuola** non crea account: l'account lo crea e lo gestisce il tuo **istituto scolastico**.
+
+1. **Dati sul telefono**: premi **Esci** nell'app (il token viene revocato anche sul server) oppure disinstalla l'app. Indirizzo del server, token e preferenze vengono cancellati subito.
+2. **Dati sul server dell'istituto** (account, elenco degli accessi, decisioni sulle richieste di app): chiedi la cancellazione all'istituto, cioè alla segreteria o al responsabile della protezione dei dati (art. 17 GDPR).
+3. L'istituto cancella l'account e gli accessi. Le decisioni sulle richieste di app restano conservate per il tempo previsto dalle sue regole sui registri scolastici, poi vengono cancellate.
+
+Il progetto EduWISP non conserva dati degli utenti dell'app e non può cancellarli al posto dell'istituto.
 
 ## Contatti
 
