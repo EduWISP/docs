@@ -30,6 +30,8 @@ Le proposte dovrebbero essere discusse pubblicamente, motivate e registrate. Le 
 ## Canali
 
 - **[Discussions](https://github.com/EduWISP/docs/discussions):** idee, domande, confronto aperto.
+- **[eduwisp-sviluppo](https://groups.google.com/g/eduwisp-sviluppo):** gruppo di discussione via email sullo sviluppo, aperto a tutti.
+- **[eduwisp-tester](https://groups.google.com/g/eduwisp-tester):** tester delle app Android su Google Play; iscrizione su richiesta, solo dati fittizi.
 - **[Issue](https://github.com/EduWISP/docs/issues):** proposte concrete (requisiti, verifiche Android, privacy, documentazione) tramite i modelli disponibili.
 - **Pull request:** modifiche alla documentazione e nuovi ADR.
 
