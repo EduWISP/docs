@@ -29,7 +29,7 @@ The roadmap describes design phases; it does not state dates or release commitme
 ## Server installation: order of work
 
 1. **Server architecture**: decided in [ADR-0016](/docs/decisioni/0016-architettura-del-server/) (Italian) and summarised in [Server architecture](../architecture/server.md).
-2. **`ansible-eduwisp` role** completed accordingly. Done: application, database, web, Valkey and Celery, backups, monitoring and email alerts, logs, firewall, IDS, hardening. To do: remote backup archive, `/health/`, MFA, upgrades.
+2. **`ansible-eduwisp` role** completed accordingly. Done: application, database, web, Valkey and Celery, backups, monitoring and email alerts, logs, firewall, IDS, hardening, upgrades with automatic rollback. To do: remote backup archive, `/health/`, MFA.
 3. **Installation ISO**, last: Proxmox-style guided installer (disk, network/IP, hostname, admin email, password), EduWISP logo, based on the official signature-verified **Debian stable** installer, **rebuilt automatically** by a scheduled GitHub Action whenever a new Debian stable release is published, with a first-boot wizard running the Ansible role.
 
 ## Planned for later phases

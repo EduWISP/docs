@@ -24,7 +24,7 @@ Aggiornato al 27 novembre 2026, su `server.eduwisp.org` ([ambiente demo](https:/
 | Firewall, fail2ban, Suricata, AIDE, auditd, hardening | ✅ attivo (Lynis 78/100) |
 | Endpoint `/health/` | ⏳ da fare (eduwisp-utils) |
 | Autenticazione a più fattori | ⏳ da fare (eduwisp-users) |
-| Aggiornamento per rilasci della piattaforma | ⏳ da fare |
+| Aggiornamento per rilasci della piattaforma | ✅ attivo, con ripristino automatico provato |
 | Separazione dei dati di cyberbullismo e Family Control | ⏳ da progettare |
 
 Tutto è installato dal ruolo [`ansible-eduwisp`](https://github.com/EduWISP/ansible-eduwisp), idempotente.
@@ -106,13 +106,13 @@ Le cancellazioni (per esempio per diritto all'oblio) si estendono ai backup alla
 ## Aggiornamenti
 
 1. **Debian:** patch di sicurezza automatiche; `needrestart` segnala i servizi da riavviare; i riavvii per il kernel si pianificano fuori dall'orario scolastico.
-2. **EduWISP:** si aggiorna a un **rilascio della piattaforma**, che fissa le versioni di tutti i moduli. Il ruolo Ansible:
-   1. esegue un backup;
-   2. ferma Celery;
-   3. installa le nuove versioni;
-   4. applica le migrazioni e aggiorna i file statici;
-   5. riavvia i servizi e verifica l'endpoint di stato.
-3. **Ritorno alla versione precedente:** si ripristinano il backup e le versioni precedenti (le migrazioni del database vanno solo in avanti).
+2. **EduWISP:** si aggiorna a un **rilascio della piattaforma** (file in `ansible-eduwisp/releases/`), che fissa il commit di ogni modulo. Il ruolo normale non aggiorna mai i moduli da solo: l'aggiornamento è un comando separato, `aggiorna.yml`, che:
+   1. controlla servizi, spazio libero e migrazioni in sospeso;
+   2. crea un **punto di ripristino**: backup con BorgBackup, copia del database, dell'ambiente Python e del progetto;
+   3. attiva la **pagina di manutenzione** (HTTP 503 con `Retry-After`): i dispositivi continuano ad applicare le regole già ricevute;
+   4. ferma applicazione e Celery, installa le nuove versioni, applica le migrazioni e aggiorna i file statici;
+   5. riavvia i servizi e **verifica** applicazione, API, worker e migrazioni, poi toglie la manutenzione.
+3. **Ripristino automatico:** se un passo fallisce, il ruolo rimette ambiente Python, progetto e database com'erano (il database viene ricreato dalla copia, così non restano migrazioni a metà), verifica il servizio e avvisa gli amministratori via email. Provato su `server.eduwisp.org` con un errore simulato dopo le migrazioni.
 
 ## Monitoraggio
 
