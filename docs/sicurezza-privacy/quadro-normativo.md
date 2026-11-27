@@ -64,6 +64,19 @@ EduWISP tratta dati di **minori** in un contesto **scolastico**, spesso per cont
 | **L. 4/2004 (Legge Stanca)** e Linee guida AgID sull'accessibilità | Le interfacce usate dalle scuole devono essere accessibili (riferimento tecnico EN 301 549 / WCAG). Collegato a RNF-008. |
 | **Qualificazione dei servizi cloud per la PA (ACN)** | Un'offerta *cloud hosted* destinata alle scuole statali deve rispettare i requisiti di qualificazione ACN. *Da verificare: livello richiesto per i dati trattati.* |
 
+## Indicazioni del Garante per le scuole
+
+Fonti: le [FAQ «Scuola e privacy»](https://www.gpdp.it/home/faq/scuola-e-privacy) e il vademecum [«La scuola a prova di privacy»](https://www.gpdp.it/scuola) (edizione 2023, presentato anche da [AID](https://www.aiditalia.org/news/la-scuola-a-prova-di-privacy-le-indicazioni-del-garante-della-privacy)). Le indicazioni che riguardano EduWISP:
+
+| Indicazione del Garante | Conseguenza per EduWISP |
+|---|---|
+| I dati su disabilità, DSA e salute li conoscono solo i soggetti legittimati (docenti, genitori, operatori del PEI) e non si diffondono (FAQ 6 e 8) | Nessuna diagnosi né motivo sanitario nei dati della piattaforma; le eccezioni per uno studente (per esempio app del PDP) non riportano il motivo e sono visibili solo a chi lo segue |
+| Gli studenti con DSA possono usare gli strumenti previsti dal PDP, compresi registratore e computer, anche se il regolamento vieta le registrazioni (FAQ 12) | L'elenco di app consentite deve permettere app **per il singolo studente** (registratore, sintesi vocale, mappe concettuali), decise dalla scuola |
+| Nelle comunicazioni non rivolte a destinatari precisi non compaiono alunni identificabili: disabilità, salute, bullismo, sanzioni (FAQ 6 e 7) | Notifiche e richieste (per esempio di app) vanno **solo** ai destinatari interessati, mai in elenchi o bacheche generali |
+| L'uso dello smartphone lo disciplina la scuola; registrazioni e foto solo per uso personale, la diffusione richiede il consenso (FAQ 9, 10, 11) | Fotocamera e registrazione restano impostazioni della scuola; nessuna raccolta di foto o registrazioni da parte di EduWISP |
+| La scuola è titolare e deve dare l'informativa, anche online (FAQ 1 e 2) | EduWISP fornirà un modello di informativa e il fornitore del servizio agisce come responsabile del trattamento (art. 28 GDPR) |
+| Videosorveglianza solo se strettamente indispensabile (FAQ 14) | EduWISP non usa fotocamera, microfono o schermo dei tablet per sorvegliare |
+
 ## Regole che ne derivano per il progetto
 
 1. **Nessun dato reale** di studenti, famiglie o personale prima di DPIA, revisione legale e approvazione del DPO.
